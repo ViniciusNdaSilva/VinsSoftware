@@ -7,13 +7,11 @@ main {
 
 /* Google Fonts */
 
-/* Open Sans */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
-
 /* Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
 
 /* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
 
 .row {
   margin: 0;
@@ -90,7 +88,7 @@ header, .navbar {
 
 .part-1 h1 {
   font-size: 50px;
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 
@@ -109,6 +107,3 @@ header, .navbar {
   margin: 50px;
 }
 
-#element {
-  font-size: 36px;
-}
