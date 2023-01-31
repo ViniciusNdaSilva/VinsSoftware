@@ -1,0 +1,111 @@
+/* Gerais */ 
+
+main {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,13,13,1) 38%, rgba(38,38,38,1) 75%, rgba(64,64,64,1) 100%);
+}
+
+/* Google Fonts */
+
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+/* Open Sans */
+
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p, li {
+  color: #444;
+  font-size: 14px;
+}
+
+/* BARRA DE NAVEGACAO */ 
+
+header, .navbar {
+  background-color: black;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 130px;
+  padding-left: 20px;
+}
+
+#navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+.size-menu-hamb {
+  width: 30px;
+  height: 30px;
+}
+
+.color-incon {
+  color: #459CD7;
+}
+
+.afastar-o-lado {
+  margin-right: 15px;
+}
+
+/* HOME */
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.part-1 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-perfil {
+  width: 345px;
+}
+
+.part-1 h1 {
+  font-size: 50px;
+  font-family: 'Raleway' sans-serif;
+  font-weight: bold;
+}
+
+.part-1 h2 {
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+}
+
+.size-link-redes-sociais {
+  margin: 30px 10px 20px 10px;
+}
+
+
+.size-whats-app {
+  margin: 50px;
+}
