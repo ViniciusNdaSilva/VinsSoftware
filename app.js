@@ -1,6 +1,6 @@
 new TypeIt("#element", { 
   lifeLike: false, 
-  speed: 600,
+  speed: 300,
   loop: true
 })
 .type("Developer")
