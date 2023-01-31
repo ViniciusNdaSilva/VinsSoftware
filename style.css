@@ -15,7 +15,6 @@ main {
 
 /* Open Sans */
 
-
 .row {
   margin: 0;
 }
@@ -108,4 +107,8 @@ header, .navbar {
 
 .size-whats-app {
   margin: 50px;
+}
+
+.container {
+  
 }
