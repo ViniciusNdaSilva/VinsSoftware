@@ -1,6 +1,6 @@
 /* Gerais */ 
 
-main {
+.fundo-fixo {
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,13,13,1) 38%, rgba(38,38,38,1) 75%, rgba(64,64,64,1) 100%);
 }
@@ -49,6 +49,11 @@ header, .navbar {
   font-size: 15px;
 }
 
+.navbar a:hover {
+  border-bottom: 5px solid #459CD7;
+  transition: 0.5s;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 1rem .8rem;
 }
@@ -63,7 +68,7 @@ header, .navbar {
 }
 
 .afastar-o-lado {
-  margin-right: 15px;
+  margin-right: 130px;
 }
 
 /* HOME */
@@ -73,6 +78,10 @@ header, .navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.container-redes {
+  display: flex;
 }
 
 .part-1 {
@@ -107,3 +116,6 @@ header, .navbar {
   margin: 50px;
 }
 
+.linha-debaixo {
+  border-bottom: 5px solid #459CD7;
+}
