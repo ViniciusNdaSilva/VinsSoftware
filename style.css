@@ -112,6 +112,15 @@ header, .navbar {
 }
 
 
+.Whats-flutuando {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  margin: 40px;
+} 
+
 .size-whats-app {
   margin: 50px;
 }
