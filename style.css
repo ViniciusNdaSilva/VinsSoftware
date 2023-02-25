@@ -188,6 +188,10 @@ header, .navbar {
   width: 600px;
 }
 
+.link-curriculo {
+  color: #fff;
+}
+
 .div-linha {
   border: 1px solid #459CD7;
 }
