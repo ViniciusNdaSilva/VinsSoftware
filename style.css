@@ -243,8 +243,6 @@ header, .navbar {
 
 /* Projetos */
 
-
-
 .div-titulo-projetos h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -258,6 +256,12 @@ header, .navbar {
   font-size: 15px;
   color: #ffffffba;
   margin: 50px;
+}
+
+.linha1-projeto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .tag-proj-1 img {
@@ -297,6 +301,45 @@ header, .navbar {
   margin: 10px;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
+}
+
+.tag-proj-2 img {
+  width: 426px;
+}
+
+.tag-proj-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 506px;
+  height: 336px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.descri-proj-2 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #262626;
+}
+
+.descri-proj-2 a:hover {
+  color: #459CD7;
+}
+
+.descri-proj-2 p:hover {
+  color: #459CD7;
+}
+
+.descri-proj-2 p {
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #262626;
 }
 
 
