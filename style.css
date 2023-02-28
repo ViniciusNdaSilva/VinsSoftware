@@ -167,6 +167,10 @@ header, .navbar {
 
 /* Resumo */
 
+#Resumo {
+  margin-bottom: 200px;
+}
+
 .titulo-resumo {
   margin: 50px;
 }
@@ -245,7 +249,31 @@ header, .navbar {
   margin-bottom: 15px;
 }
 
+/* Certificacoes */
+
+.certificados {
+  margin: 50px;
+}
+
+.certificados p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #459CD7;
+}
+
+.certificados li {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 5px;
+}
+
 /* Projetos */
+
+#Projetos {
+  margin-bottom: 150px;
+}
 
 .div-titulo-projetos h3 {
   font-family: 'Raleway', sans-serif;
@@ -346,6 +374,64 @@ header, .navbar {
   color: #262626;
 }
 
+
+/* Contato */
+
+.Container-geral-contato {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Titulo-contato p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #459CD7;
+  margin: 50px;
+}
+
+.Container-1-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 420px;
+  height: 589px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.Container-2-contato {
+  width: 647px;
+  height: 623px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.container-Localizacao {
+  display: flex;
+  margin: 40px 20px 20px 50px;
+}
+
+.container-Localizacao svg {
+  color: #459CD7;
+}
+
+.escrita-contato {
+  margin-left: 30px;
+}
+
+.escrita-contato-1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+}
+
+.escrita-contato-2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #1e3b68;
+  margin-top: -15px;
+} 
 
 
 /* Whats Flutuando */
