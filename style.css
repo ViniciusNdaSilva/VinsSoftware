@@ -16,10 +16,6 @@ h3 {
   margin: 0;
 }
 
-.container {
-  padding: 70px 0;
-}
-
 p, li {
   color: #444;
   font-size: 14px;
@@ -31,9 +27,12 @@ header, .navbar {
   background-color: black;
 }
 
-#nav-container {
-  padding-top: 0;
-  padding-bottom: 0;
+header {
+  height: 80px;
+}
+
+nav {
+  height: 80px;
 }
 
 #logo {
@@ -451,4 +450,24 @@ header, .navbar {
 
 .linha-debaixo {
   border-bottom: 5px solid #459CD7;
+}
+
+/* Footer */
+
+footer {
+  background-image: url(img/Rodapé.png);
+  height: 75px;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer a, p {
+  text-decoration: none;
+  color: #fff;
 }
