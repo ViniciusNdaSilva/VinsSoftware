@@ -471,3 +471,22 @@ footer {
   text-decoration: none;
   color: #fff;
 }
+
+
+/* Responsivo tablet */
+
+@media (max-width: 768px) {
+  /* Altera o layout para duas colunas */
+   {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Responsivo celular */
+
+@media (max-width: 480px) {
+  /* Altera o layout para duas colunas */
+   {
+    grid-template-columns: 1fr 1fr;
+  }
+}
