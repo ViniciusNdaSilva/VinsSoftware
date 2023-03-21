@@ -1,7 +1,7 @@
 /* Gerais */ 
 
 .fundo-fixo {
-  background-color: #262626;
+  background-image: url(img/img-skills.png);
 }
 
 h3 {
@@ -484,9 +484,10 @@ footer {
 
 /* Responsivo celular */
 
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   /* Altera o layout para duas colunas */
-   {
-    grid-template-columns: 1fr 1fr;
+  section .home {
+    display: flex;
+    flex-direction: row;
   }
 }
