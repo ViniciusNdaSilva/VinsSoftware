@@ -1,7 +1,12 @@
-/* Gerais */ 
+/* Gerais */
 
-.fundo-fixo {
-  background-image: url(img/gray-textured-wall.jpg);
+* {
+  background-color: black;
+}
+
+.home {
+  background-image: url(img/background.jpg);
+  background-size: cover;
 }
 
 h3 {
@@ -486,8 +491,43 @@ footer {
 
 @media (max-width: 425px) {
   /* Altera o layout para duas colunas */
-  section .home {
-    display: flex;
-    flex-direction: row;
+  .home {
+    flex-direction: column;
   }
+
+  .img-skills img {
+    height: 100px;
+  }
+
+  .linha1-projeto {
+    flex-direction: column;
+  }
+
+  .tag-proj-1 img, .tag-proj-2 img {
+    width: 180px;
+  } 
+
+  .tag-proj-1, .tag-proj-2  {
+    width: 206px;
+  }
+
+  .container-sobre-mim {
+    flex-direction: column;
+  }
+
+  .Container-1-contato {
+    width: 220px;
+    height: 589px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  
+  .Container-2-contato {
+    width: 347px;
+    height: 623px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+
 }
