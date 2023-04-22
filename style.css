@@ -458,7 +458,8 @@ nav {
 
 /* Whats Flutuando */
 
-.Whats-flutuando {
+.whats-flutuando {
+  background: none;
   position: fixed;
   width: 60px;
   height: 60px;
@@ -467,27 +468,34 @@ nav {
   margin: 40px;
 } 
 
+.whats-flutuando a {
+  background: none;
+}
+
 .size-whats-app {
+  background: none;
   margin: 50px;
 }
 
 .linha-debaixo {
+  background: none;
   border-bottom: 5px solid #459CD7;
 }
 
 /* Footer */
 
 footer {
-  background-image: url(img/Rodapé.png);
   height: 75px;
   background-size: cover;
-  margin-top: 50px;
+  padding-top: 50px;
+  background: black;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  background: none;
 }
 
 .footer a, p {
