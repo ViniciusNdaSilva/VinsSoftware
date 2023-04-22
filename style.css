@@ -273,7 +273,7 @@ nav {
   padding: 5px;
 }
 
-/* Projetos */
+/* Projetos Meus Trabalhos Recentes*/
 
 #Projetos {
   margin-bottom: 150px;
@@ -316,7 +316,12 @@ nav {
   margin: 20px;
 }
 
+.descri-proj {
+  background: none;
+}
+
 .descri-proj a {
+  background: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -337,6 +342,7 @@ nav {
   margin: 10px;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
+  background: none;
 }
 
 .tag-proj-2 img {
@@ -355,7 +361,12 @@ nav {
   margin: 20px;
 }
 
+.descri-proj-2 {
+  background: none;
+}
+
 .descri-proj-2 a {
+  background: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -376,6 +387,7 @@ nav {
   margin: 10px;
   font-family: 'Open Sans', sans-serif;
   color: #262626;
+  background: none;
 }
 
 
