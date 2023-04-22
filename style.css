@@ -416,27 +416,28 @@ nav {
   border-radius: 20px;
 }
 
-.Container-2-contato {
-  width: 647px;
-  height: 623px;
-  background-color: #fff;
-  border-radius: 20px;
+.Container-Contato {
+  background: white;
 }
 
 .container-Localizacao {
+  background: white;
   display: flex;
   margin: 40px 20px 20px 50px;
 }
 
 .container-Localizacao svg {
+  background: white;
   color: #459CD7;
 }
 
 .escrita-contato {
+  background: white;
   margin-left: 30px;
 }
 
 .escrita-contato-1 {
+  background: white;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 22px;
@@ -444,10 +445,15 @@ nav {
 }
 
 .escrita-contato-2 {
+  background: white;
   font-family: 'Open Sans', sans-serif;
   color: #1e3b68;
   margin-top: -15px;
-} 
+}
+
+.area-svg {
+  background-color: #fff;
+}
 
 
 /* Whats Flutuando */
