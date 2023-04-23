@@ -542,18 +542,14 @@ footer {
   }
 
   .Container-1-contato {
-    width: 220px;
+    width: 326px;
     height: 589px;
     background-color: #fff;
     border-radius: 20px;
   }
   
-  .Container-2-contato {
-    width: 347px;
-    height: 623px;
-    background-color: #fff;
-    border-radius: 20px;
+  .mapa-size {
+    width: 326px;
   }
-
 
 }
