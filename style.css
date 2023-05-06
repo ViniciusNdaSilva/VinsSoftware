@@ -510,15 +510,15 @@ footer {
 
 /* Responsivo celular */
 
-@media (max-width: 425px) {
+@media (max-width: 480px) {
   /* Altera o layout para duas colunas */
   .home {
     flex-direction: column;
   }
 
-  .img-skills img {
-    height: 100px;
-  }
+  .afastar-o-lado {
+    margin-right: 30px;
+}
 
   .linha1-projeto {
     flex-direction: column;
@@ -546,5 +546,134 @@ footer {
   .mapa-size {
     width: 326px;
   }
+
+
+  /* Home - inicio */
+
+  .part-1 {
+    padding-top: 150px;
+  }
+
+  .part-1 h1 {
+    font-size: 30px;
+  }
+
+  .part-1 h2 {
+    font-size: 20px;
+  }
+
+  .part-2 img {
+    height: 200px;
+    width: 200px;
+  }
+
+  /* Home  */
+
+  #Sobre-mim {
+   margin: 50px 50px 0px 50px;
+  }
+
+  .size-img-sobremim img {
+    display: none;
+  }
+
+  .texto-sobre-mim {
+    font-size: 12px;
+  }
+
+  /* Skills  */
+
+  #Skills {
+    margin: 50px
+  }
+
+  .titulo-skills {
+    margin: 30px;
+  } 
+
+  .img-skills img {
+    height: 240px;
+  }
+
+  /* Resumo  */
+
+  .Container-resumo-principal {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    justify-content: space-around;
+  } 
+
+  #Resumo {
+    margin-bottom: 100px;
+  }
+  
+  .titulo-resumo {
+    margin: 50px;
+  }
+  
+  .titulo-resumo h3 {
+    font-size: 30px;
+  }
+
+  /* educacao + profissional */
+  
+  .container-educacao, .container-profissional {
+    width: 410px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .container-profissional {
+    width: 410px;
+  }
+  
+  .titulo-aba-resumo {
+    font-size: 18px;
+  }
+  
+  .titulo-atividade-resumo {
+    font-size: 15px;
+  }
+  
+  .descricao-items-resumo {
+    font-size: 13px;
+  }
+  
+  .descricao-atividades-resumo {
+    font-size: 13px;
+  }
+
+  .div-linha {
+    display: none;
+  }
+
+  /* certificacoes  */
+
+  .certificados {
+    margin: 50px;
+  }
+  
+  .certificados p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #459CD7;
+  }
+  
+  .certificados li {
+    color: #fff;
+    font-size: 12px;
+  }
+
+
+
+  
+
+
+
+  
+
+
 
 }
