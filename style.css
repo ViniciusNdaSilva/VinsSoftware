@@ -501,54 +501,27 @@ footer {
 
 /* Responsivo tablet */
 
-@media (max-width: 768px) {
-  /* Altera o layout para duas colunas */
-   {
-    grid-template-columns: 1fr 1fr;
-  }
-}
+@media (max-width: 768px) {}
 
 /* Responsivo celular */
 
 @media (max-width: 480px) {
-  /* Altera o layout para duas colunas */
-  .home {
-    flex-direction: column;
-  }
+
+  /* Geral  */
 
   .afastar-o-lado {
     margin-right: 30px;
-}
-
-  .linha1-projeto {
-    flex-direction: column;
   }
-
-  .tag-proj-1 img, .tag-proj-2 img {
-    width: 180px;
-  } 
-
-  .tag-proj-1, .tag-proj-2  {
-    width: 206px;
-  }
-
-  .container-sobre-mim {
-    flex-direction: column;
-  }
-
-  .Container-1-contato {
-    width: 326px;
-    height: 589px;
-    background-color: #fff;
-    border-radius: 20px;
-  }
-  
-  .mapa-size {
-    width: 326px;
-  }
-
 
   /* Home - inicio */
+
+  #Sobre-mim {
+    margin: 50px 50px 0px 50px;
+   }
+
+  .home {
+    flex-direction: column;
+  }
 
   .part-1 {
     padding-top: 150px;
@@ -567,18 +540,16 @@ footer {
     width: 200px;
   }
 
-  /* Home  */
-
-  #Sobre-mim {
-   margin: 50px 50px 0px 50px;
-  }
-
   .size-img-sobremim img {
     display: none;
   }
 
   .texto-sobre-mim {
     font-size: 12px;
+  }
+
+  .container-sobre-mim {
+    flex-direction: column;
   }
 
   /* Skills  */
@@ -666,14 +637,106 @@ footer {
     font-size: 12px;
   }
 
+  /* Ultimos trabalhos  */
+
+  .div-titulo-projetos h3 {
+    font-size: 30px;
+  }
+
+  .tag-proj-1, .tag-proj-2 {
+    width: 250px;
+    height: 180px;
+    background-color: #459CD7;
+  }
+
+  .container-projetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linha1-projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .descri-proj-2 p {
+    color: #fff;
+  }
+
+  .div-titulo-projetos > p > a {
+    color: #fff;
+  }
+
+  .div-titulo-projetos > p > a:hover {
+    color: #459CD7;
+  }
+
+  .tag-proj-1 img, .tag-proj-2 img {
+    width: 180px;
+    padding-top: 10px;
+  } 
+
+   /* Contatos  */
 
 
-  
+  .Container-geral-contato {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+  }
+
+  .Container-1-contato {
+    width: 326px;
+    height: 589px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+  .Titulo-contato p {
+    font-size: 30px;
+  }
+
+  .Container-1-contato {
+    width: 326px;
+    height: 589px;
+    background-color: #fff;
+  }
+
+  .Container-Contato {
+    background: white;
+    border-radius: 70px;
+    
+  }
+
+  .container-Localizacao {
+    background: white;
+    display: flex;
+    margin: 40px 20px 10px 20px;
+  }
+
+  .container-Localizacao svg {
+    height: 50px;
+    padding-top: 10px;
+  } 
+
+  .escrita-contato-1 {
+    font-size: 18px;
+  }
+
+  .escrita-contato p {
+    padding: 0px;
+  }
 
 
 
-  
-
-
+  .mapa-size {
+    width: 226px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
 
 }
