@@ -65,10 +65,6 @@ nav {
   margin-right: 130px;
 }
 
-#nav-container a {
-  height: 60px;
-}
-
 main {
   background-color: #262626;
 }
@@ -507,11 +503,11 @@ footer {
 
 @media (max-width: 480px) {
 
-  /* Geral  */
+  /* Geral  
 
   .afastar-o-lado {
     margin-right: 30px;
-  }
+  } */
 
   /* Home - inicio */
 
@@ -563,7 +559,7 @@ footer {
   } 
 
   .img-skills img {
-    height: 240px;
+    height: 183px;
   }
 
   /* Resumo  */
@@ -590,13 +586,9 @@ footer {
   /* educacao + profissional */
   
   .container-educacao, .container-profissional {
-    width: 410px;
+    width: 350px;
     margin-left: 30px;
     margin-right: 30px;
-  }
-  
-  .container-profissional {
-    width: 410px;
   }
   
   .titulo-aba-resumo {
@@ -609,6 +601,7 @@ footer {
   
   .descricao-items-resumo {
     font-size: 13px;
+    width: 270px;
   }
   
   .descricao-atividades-resumo {
