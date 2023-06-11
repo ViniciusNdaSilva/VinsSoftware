@@ -27,6 +27,13 @@ header, .navbar {
   background-color: black;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 nav {
   height: 80px;
 }
@@ -495,13 +502,9 @@ footer {
 }
 
 
-/* Responsivo tablet */
-
-@media (max-width: 768px) {}
-
 /* Responsivo celular */
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
 
   /* Geral  
 
