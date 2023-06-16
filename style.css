@@ -1,7 +1,11 @@
 /* Gerais */
 
+main {
+  background-color: black;
+}
+
 .home {
-  background-image: url(img/ben-griffiths-l7R85WBKl1c-unsplash.jpg);
+  background-image: url(img/nasa-Q1p7bh3SHj8-unsplash.jpg);
   background-size: cover;
 }
 
@@ -72,9 +76,6 @@ nav {
   margin-right: 130px;
 }
 
-main {
-  background-color: #262626;
-}
 
 /* HOME */
 
@@ -87,6 +88,13 @@ main {
 
 .container-redes {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 75px;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 15px;
 }
 
 .part-1 {
@@ -113,18 +121,15 @@ main {
 }
 
 .size-link-redes-sociais {
-  margin: 30px 10px 20px 10px;
+  margin: 20px 10px 20px 10px;
 }
 
 
 /* Sobre mim */
 
-#Sobre-mim {
-  margin: 100px;
-}
-
 .container-sobre-mim {
   display: flex;
+  padding: 100px;
 }
 
 .size-img-sobremim img {
@@ -168,7 +173,7 @@ main {
 }
 
 .img-skills img {
-  height: 500px;
+  height: 400px;
 }
 
 /* Resumo */
@@ -452,6 +457,10 @@ main {
   font-family: 'Open Sans', sans-serif;
   color: #1e3b68;
   margin-top: -15px;
+}
+
+.escrita-contato-2 a {
+  text-decoration: none;
 }
 
 .area-svg {
