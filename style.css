@@ -513,7 +513,7 @@ footer {
 
 /* Responsivo celular */
 
-@media (max-width: 400px) {
+@media (max-width: 475px) {
 
   /* Geral  
 
@@ -558,6 +558,7 @@ footer {
 
   .container-sobre-mim {
     flex-direction: column;
+    padding: 10px;
   }
 
   /* Skills  */
