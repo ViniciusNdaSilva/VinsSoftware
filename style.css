@@ -1,7 +1,7 @@
 /* Gerais */
 
 main {
-  background-color: black;
+  background-color: #000103;
 }
 
 .home {
@@ -25,27 +25,8 @@ p, li {
   font-size: 14px;
 }
 
-/* BARRA DE NAVEGACAO */ 
+/* BARRA DE NAVEGACAO 
 
-header, .navbar {
-  background-color: black;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-nav {
-  height: 80px;
-}
-
-#logo {
-  width: 130px;
-  padding-left: 20px;
-}
 
 #navbar-links a {
   text-decoration: none;
@@ -59,22 +40,9 @@ nav {
   transition: 0.5s;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 1rem .8rem;
-}
-
-.size-menu-hamb {
-  width: 30px;
-  height: 30px;
-}
-
 .color-incon {
   color: #459CD7;
-}
-
-.afastar-o-lado {
-  margin-right: 130px;
-}
+} */ 
 
 
 /* HOME */
@@ -496,30 +464,23 @@ nav {
 
 /* Footer */
 
-footer {
-  background-size: cover;
+.footer {
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: flex-end;
+  height: 60px;
   background-color: black;
 }
 
-.footer a, p {
-  padding-top: 10px;
-  text-decoration: none;
-  color: #fff;
+.footer p {
+  margin: 0;
+  padding: 0;
 }
 
 
 /* Responsivo celular */
 
 @media (max-width: 475px) {
-
-  /* Geral  
-
-  .afastar-o-lado {
-    margin-right: 30px;
-  } */
 
   /* Home - inicio */
 
@@ -572,7 +533,8 @@ footer {
   } 
 
   .img-skills img {
-    height: 183px;
+    width: 250px;
+    height: auto;
   }
 
   /* Resumo  */
@@ -696,7 +658,7 @@ footer {
   }
 
   .Container-1-contato {
-    width: 326px;
+    width: 250px;
     height: 589px;
     background-color: #fff;
     border-radius: 20px;
@@ -707,7 +669,7 @@ footer {
   }
 
   .Container-1-contato {
-    width: 326px;
+    width: 300px;
     height: 589px;
     background-color: #fff;
   }
@@ -736,8 +698,6 @@ footer {
   .escrita-contato p {
     padding: 0px;
   }
-
-
 
   .mapa-size {
     width: 226px;
