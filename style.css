@@ -304,7 +304,8 @@ p, li {
 }
 
 .tag-proj-1 img {
-  width: 426px;
+  max-width: 426px;
+  max-height: 232px;
 }
 
 .tag-proj-1 {
