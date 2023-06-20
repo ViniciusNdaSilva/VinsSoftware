@@ -4,11 +4,6 @@ main {
   background-color: #000103;
 }
 
-.home {
-  background-image: url(img/nasa-Q1p7bh3SHj8-unsplash.jpg);
-  background-size: cover;
-}
-
 h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -16,9 +11,6 @@ h3 {
   color: #459CD7;
 }
 
-.row {
-  margin: 0;
-}
 
 p, li {
   color: #444;
@@ -26,7 +18,6 @@ p, li {
 }
 
 /* BARRA DE NAVEGACAO */
-
 
 #navbar-links a {
   text-decoration: none;
@@ -44,53 +35,14 @@ p, li {
   color: #459CD7;
 } 
 
-
 /* HOME */
 
 .home {
-  height: 100vh;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  background-image: url(img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-size: cover;
 }
 
-.container-redes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  height: 75px;
-  margin-top: 10px;
-  width: 200px;
-  border-radius: 15px;
-}
 
-.part-1 {
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.img-perfil {
-  width: 345px;
-}
-
-.part-1 h1 {
-  font-size: 50px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-}
-
-.part-1 h2 {
-  margin-top: 15px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 36px;
-}
-
-.size-link-redes-sociais {
-  margin: 20px 10px 20px 10px;
-}
 
 
 /* Sobre mim */
@@ -457,10 +409,6 @@ p, li {
   margin: 50px;
 }
 
-.linha-debaixo {
-  background: none;
-  border-bottom: 5px solid #459CD7;
-}
 
 /* Footer */
 
@@ -484,30 +432,15 @@ p, li {
 
   /* Home - inicio */
 
+
+
+
+
+  /* Sobre-mim  */
+
   #Sobre-mim {
     margin: 50px 50px 0px 50px;
    }
-
-  .home {
-    flex-direction: column;
-  }
-
-  .part-1 {
-    padding-top: 0px;
-  }
-
-  .part-1 h1 {
-    font-size: 30px;
-  }
-
-  .part-1 h2 {
-    font-size: 20px;
-  }
-
-  .part-2 img {
-    height: 200px;
-    width: 200px;
-  }
 
   .size-img-sobremim img {
     display: none;
