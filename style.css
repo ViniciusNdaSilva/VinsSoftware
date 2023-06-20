@@ -113,6 +113,14 @@ p, li {
   padding: 100px;
 }
 
+
+.container-texto-sobre-mim h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #459CD7;
+}
+
 .size-img-sobremim img {
   width: 150px;
   margin-right: 100px;
@@ -146,6 +154,13 @@ p, li {
 
 .titulo-skills {
   margin: 100px;
+}
+
+.titulo-skills h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #459CD7;
 }
 
 .img-skills {
@@ -495,9 +510,9 @@ p, li {
   /* Home - inicio */
   .container-2 {
     flex-direction: column;
-    width: 167px;
-    height: 205px;
-    border-radius: 14.5px;
+    width: 267px;
+    height: 305px;
+    border-radius: 20.5px;
   }
 
   .titulo-home {
@@ -505,11 +520,11 @@ p, li {
   }
 
   .titulo-home h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .img-container-2 img {
-    width: 61px;
+    width: 100px;
   }
 
   .escrita-lado-2 {
@@ -519,14 +534,14 @@ p, li {
   .escrita-lado-2 h2 {
     margin-top: 0px;
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
     color: #2970F4;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
 }
 
   .size-link-redes-sociais {
-    width: 20px;
+    width: 30px;
   }
 
 
@@ -540,6 +555,13 @@ p, li {
 
   .size-img-sobremim img {
     display: none;
+  }
+
+  .container-texto-sobre-mim h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #459CD7;
   }
 
   .texto-sobre-mim {
@@ -560,6 +582,10 @@ p, li {
   .titulo-skills {
     margin: 30px;
   } 
+
+  .titulo-skills h3 {
+    font-size: 25px;
+  }
 
   .img-skills img {
     width: 250px;
@@ -637,7 +663,7 @@ p, li {
   /* Ultimos trabalhos  */
 
   .div-titulo-projetos h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .tag-proj-1, .tag-proj-2 {
@@ -694,7 +720,7 @@ p, li {
   }
 
   .Titulo-contato p {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .Container-1-contato {
