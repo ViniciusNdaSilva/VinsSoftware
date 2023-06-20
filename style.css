@@ -40,10 +40,71 @@ p, li {
 .home {
   background-image: url(img/nasa-Q1p7bh3SHj8-unsplash.jpg);
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.size-link-redes-sociais {
+  width: 40px;
+}
 
+.img-container-2 img {
+  width: 248px;
+}
 
+.titulo-home {
+  margin-bottom: 50px;
+}
+
+.titulo-home h1 {
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container-2 {
+  margin-top: 50px;
+  width: 816px;
+  height: 327px;
+  background-color: #000103;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px;
+}
+
+.lado-2-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.escrita-lado-2 {
+  margin: 15px;
+}
+
+.escrita-lado-2 h2 {
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  color: #2970F4;
+  text-align: center;
+  line-height: 60px
+}
+
+.redes-home {
+  display: flex;
+}
+
+.redes-home div {
+  padding: 10px;
+}
 
 /* Sobre mim */
 
@@ -407,6 +468,7 @@ p, li {
 .size-whats-app {
   background: none;
   margin: 50px;
+  width: 40px;
 }
 
 
@@ -431,7 +493,41 @@ p, li {
 @media (max-width: 475px) {
 
   /* Home - inicio */
+  .container-2 {
+    flex-direction: column;
+    width: 167px;
+    height: 205px;
+    border-radius: 14.5px;
+  }
 
+  .titulo-home {
+    margin-bottom: 0px;
+  }
+
+  .titulo-home h1 {
+    font-size: 25px;
+  }
+
+  .img-container-2 img {
+    width: 61px;
+  }
+
+  .escrita-lado-2 {
+    margin: 0px;
+  }
+
+  .escrita-lado-2 h2 {
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #2970F4;
+    text-align: center;
+    line-height: 20px;
+}
+
+  .size-link-redes-sociais {
+    width: 20px;
+  }
 
 
 
@@ -636,6 +732,19 @@ p, li {
     width: 226px;
     border-radius: 10px;
     padding-bottom: 10px;
+  }
+
+  .size-whats-app {
+    width: 20px;
+  }
+
+  .whats-flutuando {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    margin: 0px;
   }
 
 }
