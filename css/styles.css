@@ -3954,7 +3954,7 @@ fieldset:disabled .btn {
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
   color: var(--bs-navbar-color);
-  background-color: transparent;
+  background-color: #346ACD;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
@@ -12209,5 +12209,11 @@ html {
     width: 226px;
     border-radius: 10px;
     padding-bottom: 10px;
+  }
+
+
+  .card-projects-phone {
+    display: flex;
+    flex-direction: column;
   }
 }
