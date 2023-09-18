@@ -1,1055 +1,1217 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html class="no-js vlt-is--homepage vlt-is--footer-fixed" lang="pt-br">
   <head>
     <meta charset="utf-8" />
+    <title>VinsSoftware</title>
+    <meta name="description" content="Personal CV/Resume HTML5 Template" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>VinsSoftware</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/png" href="imagens/icone-logo.png" />
-    <!-- Custom Google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--Favicon-->
     <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      rel="stylesheet"
+      rel="icon"
+      type="image/svg"
+      href="assets/img/img-new/icone-logo-redondo.png"
     />
-    <!-- Bootstrap icons-->
+    <!--Framework-->
+    <link rel="stylesheet" href="assets/css/framework/bootstrap.min.css" />
+    <!--Fonts-->
+    <link rel="stylesheet" href="assets/fonts/Gilroy/style.css" />
+    <!--Icons-->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
       rel="stylesheet"
+      href="assets/fonts/LineIcons/Pro-Regular/font-css/LineIcons.css"
     />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <!--Plugins-->
+    <link rel="stylesheet" href="assets/css/vlt-plugins.min.css" />
+    <!--Style-->
+    <link rel="stylesheet" href="assets/css/vlt-main.min.css" />
+    <!--Custom-->
+    <link rel="stylesheet" href="assets/css/custom.css" />
   </head>
-  <body class="d-flex flex-column h-100">
-    <main class="flex-shrink-0">
-      <!-- Navigation-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-        <div class="container px-5">
-          <a class="navbar-brand" href="index.html"
-            ><span class="fw-bolder text-primary">VinsSoftware</span></a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#resume">Formação</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projetos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contato">Contato</a>
-              </li>
-            </ul>
+
+  <body class="animsition">
+    <!--Header-->
+    <header class="vlt-header vlt-header--default">
+      <div
+        class="vlt-navbar vlt-navbar--main vlt-navbar--transparent vlt-navbar--sticky"
+      >
+        <div class="vlt-navbar-background"></div>
+        <div class="vlt-navbar-inner">
+          <div class="vlt-navbar-inner--left">
+            <!--Logo--><a class="vlt-navbar-logo" href="index.html"
+              ><img
+                src="assets/img/img-new/logo-completa.png"
+                alt="VinsSoftware"
+            /></a>
           </div>
-        </div>
-      </nav>
-      <!-- Header-->
-      <header class="py-5">
-        <div class="container px-5 pb-5">
-          <div class="row gx-5 align-items-center">
-            <div class="col-xxl-5">
-              <!-- Header text content-->
-              <div class="text-center text-xxl-start">
-                <div
-                  class="badge bg-gradient-primary-to-secondary text-white mb-4"
+          <div class="vlt-navbar-inner--center">
+            <div class="container">
+              <nav class="vlt-default-menu__navigation">
+                <!--Navigation-->
+                <ul class="sf-menu">
+                  <li data-menuanchor="Home"><a href="#Home">Início</a></li>
+                  <li data-menuanchor="About">
+                    <a href="#About">Sobre Mim</a>
+                  </li>
+                  <li data-menuanchor="Projects">
+                    <a href="#Projects">Projetos</a>
+                  </li>
+                  <li data-menuanchor="Education">
+                    <a href="#Education">Formação</a>
+                  </li>
+                  <li data-menuanchor="Testimonials">
+                    <a href="#Testimonials">Depoimentos</a>
+                  </li>
+                  <li data-menuanchor="Partners">
+                    <a href="#Partners">Linguagens</a>
+                  </li>
+                  <li data-menuanchor="Contact">
+                    <a href="#Contact">Contato</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="vlt-navbar-inner--right">
+            <div class="d-flex align-items-center">
+              <!--Contacts-->
+              <div class="vlt-navbar-contacts">
+                <a
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=5541987015106"
+                  >41 98701-5106</a
                 >
-                  <div class="text-uppercase">
-                    Criação de Sites e <br/>
-                    Software
-                  </div>
-                </div>
-                <div class="fs-3 fw-light text-muted">
-                  Transforme sua empresa com presença digital e
-                </div>
-                <h1 class="display-3 fw-bolder mb-5">
-                  <span class="text-gradient d-inline"
-                    >Acelere seu crescimento!
-                  </span>
-                </h1>
-                <div
-                  class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3"
+              </div>
+              <!--Menu Burger--><a
+                class="vlt-menu-burger js-offcanvas-menu-open"
+                href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="square"
+                  stroke-linejoin="round"
                 >
-                  <a
-                    class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
-                    target="_blank"
-                    href="https://api.whatsapp.com/send?phone=5541987015106"
-                    >Fale comigo</a
-                  >
-                  <a
-                    class="btn btn-projects px-5 py-3 fs-6 fw-bolder"
-                    href="#projects"
-                    >Projetos</a
-                  >
-                </div>
-              </div>
+                  <line x1="3" y1="12" x2="21" y2="12" />
+                  <line x1="3" y1="6" x2="21" y2="6" />
+                  <line x1="3" y1="18" x2="21" y2="18" /></svg
+              ></a>
             </div>
-            <div class="col-xxl-7">
-              <!-- Header profile picture-->
-              <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                <div class="profile bg-gradient-primary-to-secondary">
-                  <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                  <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                  <img
-                    class="profile-img"
-                    src="imagens/profile.png"
-                    alt="..."
-                  />
-                  <div class="dots-1">
-                    <!-- SVG Dots-->
-                    <svg
-                      version="1.1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      viewBox="0 0 191.6 1215.4"
-                      style="enable-background: new 0 0 191.6 1215.4"
-                      xml:space="preserve"
-                    >
-                      <g
-                        transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                      >
-                        <path
-                          d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"
-                        ></path>
-                        <path
-                          d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"
-                        ></path>
-                        <path
-                          d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"
-                        ></path>
-                        <path
-                          d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"
-                        ></path>
-                        <path
-                          d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"
-                        ></path>
-                        <path
-                          d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"
-                        ></path>
-                        <path
-                          d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"
-                        ></path>
-                        <path
-                          d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"
-                        ></path>
-                        <path
-                          d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"
-                        ></path>
-                        <path
-                          d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"
-                        ></path>
-                      </g>
-                    </svg>
-                    <!-- END of SVG dots-->
-                  </div>
-                  <div class="dots-2">
-                    <!-- SVG Dots-->
-                    <svg
-                      version="1.1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      viewBox="0 0 191.6 1215.4"
-                      style="enable-background: new 0 0 191.6 1215.4"
-                      xml:space="preserve"
-                    >
-                      <g
-                        transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                      >
-                        <path
-                          d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"
-                        ></path>
-                        <path
-                          d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"
-                        ></path>
-                        <path
-                          d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"
-                        ></path>
-                        <path
-                          d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"
-                        ></path>
-                        <path
-                          d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"
-                        ></path>
-                        <path
-                          d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"
-                        ></path>
-                        <path
-                          d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"
-                        ></path>
-                        <path
-                          d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"
-                        ></path>
-                        <path
-                          d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"
-                        ></path>
-                        <path
-                          d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"
-                        ></path>
-                      </g>
-                    </svg>
-                    <!-- END of SVG dots-->
-                  </div>
-                  <div class="dots-3">
-                    <!-- SVG Dots-->
-                    <svg
-                      version="1.1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      viewBox="0 0 191.6 1215.4"
-                      style="enable-background: new 0 0 191.6 1215.4"
-                      xml:space="preserve"
-                    >
-                      <g
-                        transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                      >
-                        <path
-                          d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"
-                        ></path>
-                        <path
-                          d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"
-                        ></path>
-                        <path
-                          d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"
-                        ></path>
-                        <path
-                          d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"
-                        ></path>
-                        <path
-                          d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"
-                        ></path>
-                        <path
-                          d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"
-                        ></path>
-                        <path
-                          d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"
-                        ></path>
-                        <path
-                          d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"
-                        ></path>
-                        <path
-                          d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"
-                        ></path>
-                        <path
-                          d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"
-                        ></path>
-                      </g>
-                    </svg>
-                    <!-- END of SVG dots-->
-                  </div>
-                  <div class="dots-4">
-                    <!-- SVG Dots-->
-                    <svg
-                      version="1.1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      viewBox="0 0 191.6 1215.4"
-                      style="enable-background: new 0 0 191.6 1215.4"
-                      xml:space="preserve"
-                    >
-                      <g
-                        transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                      >
-                        <path
-                          d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"
-                        ></path>
-                        <path
-                          d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"
-                        ></path>
-                        <path
-                          d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"
-                        ></path>
-                        <path
-                          d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"
-                        ></path>
-                        <path
-                          d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"
-                        ></path>
-                        <path
-                          d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"
-                        ></path>
-                        <path
-                          d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"
-                        ></path>
-                        <path
-                          d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"
-                        ></path>
-                        <path
-                          d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"
-                        ></path>
-                        <path
-                          d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"
-                        ></path>
-                        <path
-                          d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"
-                        ></path>
-                      </g>
-                    </svg>
-                    <!-- END of SVG dots-->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- About Section-->
-      <section class="bg-light py-5">
-        <div class="container px-5">
-          <div class="row gx-5 justify-content-center">
-            <div class="col-xxl-8">
-              <div class="text-center my-5">
-                <h2 class="display-5 fw-bolder">
-                  <span class="text-gradient d-inline">Sobre Mim</span>
-                </h2>
-                <p class="lead fw-light mb-4">Meu nome é Vinicius Nascimento</p>
-                <p class="text-muted">
-                  Sou o desenvolvedor web que vai acelerar o crescimento da sua
-                  empresa no mundo digital. Criarei um site incrível e
-                  responsivo, otimizado para busca e redes sociais. Com análises
-                  detalhadas, automação de processos e integração de sistemas,
-                  sua empresa vai conquistar resultados impressionantes. Conte
-                  comigo para impulsionar seu negócio online! Vamos começar?
-                </p>
-                <div class="d-flex justify-content-center fs-2 gap-4">
-                  <a
-                    class="text-gradient"
-                    target="_blank"
-                    href="https://www.instagram.com/vinicius_.nascimento_/"
-                    ><i class="bi bi-instagram"></i
-                  ></a>
-                  <a
-                    class="text-gradient"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/vinicius-nascimento-98a85b153"
-                    ><i class="bi bi-linkedin"></i
-                  ></a>
-                  <a
-                    class="text-gradient"
-                    target="_blank"
-                    href="https://github.com/ViniciusNdaSilva"
-                    ><i class="bi bi-github"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Resume Section-->
-      <div id="resume" class="container px-5 my-5">
-        <div class="text-center mb-5">
-          <h1 class="display-5 fw-bolder mb-0">
-            <span class="text-gradient d-inline">Formação</span>
-          </h1>
-        </div>
-        <div class="row gx-5 justify-content-center">
-          <div class="col-lg-11 col-xl-9 col-xxl-8">
-            <!-- Experience Section-->
-            <section>
-              <div
-                class="d-flex align-items-center justify-content-between mb-4"
-              >
-                <h2 class="text-primary fw-bolder mb-0">Experiência</h2>
-                <!-- Download resume button-->
-                <!-- Note: Set the link href target to a PDF file within your project
-                <a class="btn btn-primary px-4 py-3" href="#!">
-                  <div class="d-inline-block bi bi-download me-2"></div>
-                  Download Resume
-                </a>-->
-              </div>
-              <!-- Experience Card 1-->
-              <div class="card shadow border-0 rounded-4 mb-5">
-                <div class="card-body p-5">
-                  <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                      <div class="bg-light p-4 rounded-4">
-                        <div class="text-primary fw-bolder mb-2">
-                          2021 - Atual
-                        </div>
-                        <div class="small fw-bolder">Desenvolvedor Web</div>
-                        <div class="small text-muted">Autônomo</div>
-                        <div class="small text-muted">Paranaguá, PR</div>
-                      </div>
-                    </div>
-                    <div class="col-lg-8">
-                      <div>
-                        Desenvolvi diversos sites utilizando tecnologias como
-                        HTML, CSS, Javascript e Bootstrap, com isso consegui uma
-                        boa experiência prática em encontrar solução para
-                        problemas na área de tecnologia, como também no
-                        entendimento para melhor aplicações para determinado
-                        produto.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Experience Card 2-->
-              <div class="card shadow border-0 rounded-4 mb-5">
-                <div class="card-body p-5">
-                  <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                      <div class="bg-light p-4 rounded-4">
-                        <div class="text-primary fw-bolder mb-2">
-                          2019 - 2023
-                        </div>
-                        <div class="small fw-bolder">
-                          ANALISTA DE PRODUÇÃO SÊNIOR
-                        </div>
-                        <div class="small text-muted">Fospar</div>
-                        <div class="small text-muted">Paranaguá, PR</div>
-                      </div>
-                    </div>
-                    <div class="col-lg-8">
-                      <div>
-                        Atuação de atendimento aos contratos vigentes como
-                        acompanhar todas as etapas do contrato, comparando o
-                        previsto com o realizado. <br />
-                        Registrar todas as ações e eventos para fins de controle
-                        e auditoria Detectar ocorrências e possibilidades de
-                        desvios. <br />
-                        Gerênciamento de Capex e Opex, participação no
-                        desenvolvimento de projetos de melhorias, Kaizen.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- Education Section-->
-            <section>
-              <h2 class="text-secondary fw-bolder mb-4">Educação</h2>
-              <!-- Education Card 1-->
-              <div class="card shadow border-0 rounded-4 mb-5">
-                <div class="card-body p-5">
-                  <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                      <div class="bg-light p-4 rounded-4">
-                        <div class="text-secondary fw-bolder mb-2">
-                          2019 - 2023
-                        </div>
-                        <div class="mb-2">
-                          <div class="small fw-bolder">
-                            Faculdade Unicesumar
-                          </div>
-                          <div class="small text-muted">Paranaguá, PR</div>
-                        </div>
-                        <div class="fst-italic">
-                          <div class="small text-muted">Engenharia</div>
-                          <div class="small text-muted">Software</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-8">
-                      <div>
-                        O Curso de Bacharelado em Engenharia de Software tem
-                        como objetivo formar profissionais aptos a propor
-                        melhorias e inovações no planejamento, construção,
-                        gestão e manutenção de processos, serviços e produtos
-                        computacionais, baseados nas técnicas da Engenharia de
-                        Software: sistemas de software corretos, completos,
-                        seguros, amigáveis, usáveis, com qualidade, fáceis de
-                        manter e custo justo.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Education Card 2-->
-              <div class="card shadow border-0 rounded-4 mb-5">
-                <div class="card-body p-5">
-                  <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                      <div class="bg-light p-4 rounded-4">
-                        <div class="text-secondary fw-bolder mb-2">
-                          2016 - 2018
-                        </div>
-                        <div class="mb-2">
-                          <div class="small fw-bolder">SENAI</div>
-                          <div class="small text-muted">Paranaguá, PR</div>
-                        </div>
-                        <div class="fst-italic">
-                          <div class="small text-muted">Técnico</div>
-                          <div class="small text-muted">Eletromecânica</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-8">
-                      <div>
-                        Planejar, executar e participar da elaboração de
-                        projetos eletromecânicos de máquinas, equipamentos e
-                        instalações. Interpretar esquemas de montagem e desenhos
-                        técnicos. Montar máquinas e realizar manutenção
-                        eletromecânica de máquinas, equipamentos e instalações.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- Divider-->
-            <div class="pb-5"></div>
-            <!-- Skills Section-->
-            <section>
-              <!-- Skillset Card-->
-              <div class="card shadow border-0 rounded-4 mb-5">
-                <div class="card-body p-5">
-                  <!-- Professional skills list-->
-                  <div class="mb-5">
-                    <div class="d-flex align-items-center mb-4">
-                      <div
-                        class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
-                      >
-                        <i class="bi bi-tools"></i>
-                      </div>
-                      <h3 class="fw-bolder mb-0">
-                        <span class="text-gradient d-inline"
-                          >Habilidades Profissionais</span
-                        >
-                      </h3>
-                    </div>
-                    <div class="row row-cols-1 row-cols-md-3 mb-4">
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          SEO/SEM Marketing
-                        </div>
-                      </div>
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          WordPress
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Desenvolvimento web
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row row-cols-1 row-cols-md-3">
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Segurança de rede
-                        </div>
-                      </div>
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Software Figma
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          UI/UX Design
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Languages list-->
-                  <div class="mb-0">
-                    <div class="d-flex align-items-center mb-4">
-                      <div
-                        class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
-                      >
-                        <i class="bi bi-code-slash"></i>
-                      </div>
-                      <h3 class="fw-bolder mb-0">
-                        <span class="text-gradient d-inline">Linguagens</span>
-                      </h3>
-                    </div>
-                    <div class="row row-cols-1 row-cols-md-3 mb-4">
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          HTML
-                        </div>
-                      </div>
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          CSS
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          JavaScript
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row row-cols-1 row-cols-md-3">
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          React
-                        </div>
-                      </div>
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Bootstrap
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Node.js
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
           </div>
         </div>
       </div>
-      <!-- Projects Section-->
-      <section id="projects" class="py-5">
-        <div class="container px-5 mb-5">
-          <div class="text-center mb-5">
-            <h1 class="display-5 fw-bolder mb-0">
-              <span class="text-gradient d-inline">Projetos</span>
-            </h1>
-          </div>
-          <div class="row gx-5 justify-content-center">
-            <div class="col-lg-11 col-xl-9 col-xxl-8">
-              <!-- Project Card 1-->
-              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                <div class="card-body p-0">
-                  <div class="d-flex card-projects-phone align-items-center">
-                    <div class="p-5">
-                      <h2 class="fw-bolder">LP O Nascimento Digital</h2>
-                      <p>
-                        Desenvolvimento de uma Landing Page responsiva para uma
-                        agência de marketing digital, enfatizando os serviços
-                        oferecidos e capturando leads por meio de formulários de
-                        contato estratégicos.
-                      </p>
-                      <a
-                        target="_blank"
-                        href="https://viniciusndasilva.github.io/LP-Nascimento-Digital/"
-                        >Acesse</a
-                      >
-                    </div>
-                    <img
-                      class="img-fluid"
-                      src="imagens/projeto1.png"
-                      alt="..."
-                    />
-                  </div>
-                </div>
+    </header>
+    <!--Offcanvas Menu-->
+    <div class="vlt-offcanvas-menu">
+      <div class="vlt-offcanvas-menu__header">
+        <!--Locales-->
+        <div class="vlt-language-switcher">
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=5541987015106"
+            >Falar Sobre meu Projeto</a
+          >
+        </div>
+        <!--Menu Burger--><a
+          class="vlt-menu-burger vlt-menu-burger--opened js-offcanvas-menu-close"
+          href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="square"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <defs />
+            <path d="M18 6L6 18M6 6l12 12" /></svg
+        ></a>
+      </div>
+      <nav class="vlt-offcanvas-menu__navigation">
+        <!--Navigation-->
+        <ul class="sf-menu">
+          <li data-menuanchor="Home"><a href="#Home">Início</a></li>
+          <li data-menuanchor="About"><a href="#About">Sobre Mim</a></li>
+          <li data-menuanchor="Projects"><a href="#Projects">Projetos</a></li>
+          <li data-menuanchor="Education">
+            <a href="#Education">Formação</a>
+          </li>
+          <li data-menuanchor="Testimonials">
+            <a href="#Testimonials">Depoimentos</a>
+          </li>
+          <li data-menuanchor="Partners"><a href="#Partners">Linguagens</a></li>
+          <li data-menuanchor="Contact"><a href="#Contact">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="vlt-offcanvas-menu__footer">
+        <!--Socials-->
+        <div class="vlt-offcanvas-menu__socials">
+          <a
+            class="vlt-social-icon vlt-social-icon--style-1"
+            target="_blank"
+            href="https://github.com/ViniciusNdaSilva"
+            ><i class="lnir-github-original"></i></a
+          ><a
+            class="vlt-social-icon vlt-social-icon--style-1"
+            target="_blank"
+            href="https://www.linkedin.com/in/vinicius-nascimento-98a85b153/"
+            ><i class="lnir-linkedin-original"></i></a
+          ><a
+            class="vlt-social-icon vlt-social-icon--style-1"
+            target="_blank"
+            href="https://www.instagram.com/vinicius_.nascimento_/"
+            ><i class="lnir-instagram"></i
+          ></a>
+        </div>
+        <!--Copyright-->
+        <div class="vlt-offcanvas-menu__copyright">
+          <p>© 2023 Copyright.<br />All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <!--Site Overlay-->
+    <div class="vlt-site-overlay"></div>
+    <!--Fixed socials-->
+    <div class="vlt-fixed-socials">
+      <a
+        class="vlt-social-icon vlt-social-icon--style-1"
+        target="_blank"
+        href="https://github.com/ViniciusNdaSilva"
+        ><i class="lnir-github-original"></i></a
+      ><a
+        class="vlt-social-icon vlt-social-icon--style-1"
+        target="_blank"
+        href="https://www.linkedin.com/in/vinicius-nascimento-98a85b153/"
+        ><i class="lnir-linkedin-original"></i></a
+      ><a
+        class="vlt-social-icon vlt-social-icon--style-1"
+        target="_blank"
+        href="https://www.instagram.com/vinicius_.nascimento_/"
+        ><i class="lnir-instagram"></i
+      ></a>
+    </div>
+    <!--Main-->
+    <main class="vlt-main">
+      <!--Fullpage Slider-->
+      <div
+        class="vlt-fullpage-slider"
+        data-loop-top=""
+        data-loop-bottom=""
+        data-speed="450"
+      >
+        <!--Home-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Home">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Ken Burn Effect-->
+              <div class="vlt-section__ken-burn-background has-mobile-image">
+                <img src="assets/img/home.jpg" alt="" /><img
+                  src="assets/img/home-mobile.jpg"
+                  alt=""
+                />
               </div>
-              <!-- Project Card 2-->
-              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                <div class="card-body p-0">
-                  <div class="d-flex card-projects-phone align-items-center">
-                    <div class="p-5">
-                      <h2 class="fw-bolder">Site Igreja Alcance Paranaguá</h2>
-                      <p>
-                        Desenvolvimento completo do site oficial da Igreja
-                        Local, com informações claras sobre atividades, sermões
-                        e envolvimento da comunidade. O design foi
-                        cuidadosamente escolhido para refletir a atmosfera
-                        acolhedora e espiritual da igreja, incentivando a
-                        participação e a conexão dos membros e visitantes.
-                      </p>
-                      <a target="_blank" href="https://alcanceparanagua.com.br/"
-                        >Acesse</a
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="vlt-gap-160"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0s; animation-duration: 700ms"
+                    >
+                      <!--Video button
+                      <div class="vlt-video-button">
+                        <a
+                          href="https://vimeo.com/367945766"
+                          data-fancybox
+                          data-small-btn="true"
+                          rel="nofollow"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 27"
+                          >
+                            <defs />
+                            <path
+                              fill="currentColor"
+                              d="M23.7471 13.2802L.876191 26.4847.876192.0757026 23.7471 13.2802z"
+                            /></svg
+                        ></a>
+                      </div>
+                      -->
+                    </div>
+                    <div class="vlt-gap-100"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.1s; animation-duration: 700ms"
+                    >
+                      <span class="vlt-display-1 has-white-color"
+                        >Especialista em Criação de Sites Profissionais.</span
                       >
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="imagens/projeto2.png"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-              </div>
-              <!-- Project Card 3-->
-              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                <div class="card-body p-0">
-                  <div class="d-flex card-projects-phone align-items-center">
-                    <div class="p-5">
-                      <h2 class="fw-bolder">Site da Empresa Sul Pinturas</h2>
-                      <p>
-                        Desenvolvimento de um site personalizado para a Sul
-                        Pinturas, do setor industrial. O site destaca os
-                        produtos e serviços da empresa por meio de um design
-                        sólido e funcional, utilizado WordPress para criar uma
-                        presença online eficaz.
-                      </p>
-                      <a
-                        target="_blank"
-                        href="https://sulpinturasemontagens.com.br/"
-                        >Acesse</a
-                      >
+                    <div class="vlt-gap-15"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.2s; animation-duration: 700ms"
+                    >
+                      <h1 class="vlt-large-heading">
+                        Vinicius<span class="has-accent-color">.</span>
+                      </h1>
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="imagens/projeto3.png"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-              </div>
-              <!-- Project Card 4-->
-              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                <div class="card-body p-0">
-                  <div class="d-flex card-projects-phone align-items-center">
-                    <div class="p-5">
-                      <h2 class="fw-bolder">
-                        Site da Pastora Escritora Fabiane Palma
-                      </h2>
+                    <div class="vlt-gap-15"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.3s; animation-duration: 700ms"
+                    >
                       <p>
-                        Desenvolvimento de um site personalizado para a Pastora
-                        Fabiane Palma, renomada escritora e líder espiritual. O
-                        site foi projetado com um layout que reflete a mensagem
-                        e o estilo exclusivos da Pastora. Recursos de blog foram
-                        integrados para compartilhar seus escritos e reflexões,
-                        além de informações sobre eventos e palestras.
+                        Tenha um site eficiente e atrativo, projetado para
+                        converter. Moderno, rápido e estratégico, ele
+                        impulsionará suas vendas de forma excepcional.
                       </p>
-                      <a target="_blank" href="https://fabianepalma.com.br/"
-                        >Acesse</a
-                      >
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="imagens/projeto4.png"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-              </div>
-              <!-- Project Card 5-->
-              <div class="card overflow-hidden shadow rounded-4 border-0">
-                <div class="card-body p-0">
-                  <div class="d-flex card-projects-phone align-items-center">
-                    <div class="p-5">
-                      <h2 class="fw-bolder">Site da Empresa Montezil</h2>
-                      <p>
-                        Criação de um site dedicado para a Empresa Montezil, uma
-                        empresa industrial. O site foi projetado para apresentar
-                        os serviços e competências da empresa, com ênfase em uma
-                        experiência de usuário agradável. Tecnologias como
-                        Bootstrap, JavaScript e CSS foram empregadas para
-                        desenvolver o site de forma profissional e acessível.
-                      </p>
-                      <a target="_blank" href="http://www.montezil.com.br/"
-                        >Acesse</a
-                      >
-                    </div>
-                    <img
-                      class="img-fluid"
-                      src="imagens/projeto5.png"
-                      alt="..."
-                    />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Call to action section-->
-      <section class="py-5 bg-gradient-primary-to-secondary text-white">
-        <div class="container px-5 my-5">
-          <div class="text-center">
-            <h2 class="display-4 fw-bolder mb-4">
-              Vamos dar início ao seu projeto?
-            </h2>
-            <a
-              class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
-              href="https://api.whatsapp.com/send?phone=5541987015106"
-              target="_blank"
-              >Fale comigo</a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- Page content-->
-      <section id="contato">
-        <div class="text-center mb-5">
-          <h1 class="display-5 fw-bolder mb-0">
-            <span class="text-gradient d-inline">Contato</span>
-          </h1>
-        </div>
-        <div class="Container-geral-contato">
-          <div class="Container-1-contato">
-            <div class="Container-Contato">
-              <div class="container-Localizacao">
-                <div class="area-svg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="50"
-                    height="50"
-                    fill="currentColor"
-                    class="bi bi-geo-alt-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
-                    />
-                  </svg>
-                </div>
-                <div class="escrita-contato">
-                  <p class="escrita-contato-1">Localização:</p>
-                  <p class="escrita-contato-2">Paranagua-Pr</p>
-                </div>
-              </div>
-
-              <div class="container-Localizacao">
-                <div class="area-svg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="50"
-                    height="50"
-                    fill="currentColor"
-                    class="bi bi-envelope-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
-                    />
-                  </svg>
-                </div>
-                <div class="escrita-contato">
-                  <p class="escrita-contato-1">Email:</p>
-                  <p class="escrita-contato-2">
-                    <a
-                      href="mailto:vinicius.nascimento.dev@gmail.com"
-                      target="_blank"
-                      >vinicius.nascimento.dev <br />
-                      @gmail.com</a
+        <!--About-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="About">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-6">
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0s; animation-duration: 700ms"
                     >
-                  </p>
-                </div>
-              </div>
-
-              <div class="container-Localizacao">
-                <div class="area-svg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="50"
-                    height="50"
-                    fill="currentColor"
-                    class="bi bi-phone-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"
-                    />
-                  </svg>
-                </div>
-                <div class="escrita-contato">
-                  <p class="escrita-contato-1">Fone:</p>
-                  <p class="escrita-contato-2">
-                    <a
-                      href="https://api.whatsapp.com/send?phone=5541987015106"
-                      target="_blank"
-                      >41 98701-5106</a
+                      <div class="vlt-experience-block">
+                        <span class="vlt-experience-block__number"
+                          >3<span class="has-accent-color">.</span></span
+                        >
+                        <h5 class="vlt-experience-block__title">
+                          Anos de<br />Experiência <br />com Sites
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="vlt-gap-100--lg"></div>
+                  </div>
+                  <div class="col-xl-6 col-md-8">
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.1s; animation-duration: 700ms"
                     >
-                  </p>
+                      <h3>Ampla expertise!</h3>
+                    </div>
+                    <div class="vlt-gap-45"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.2s; animation-duration: 700ms"
+                    >
+                      <p>
+                        Potencialize seu negócio com presença online.
+                        Desenvolvemos sites otimizados para busca e redes
+                        sociais, impulsionando seu crescimento digital.
+                      </p>
+                    </div>
+                    <div class="vlt-gap-70"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.3s; animation-duration: 700ms"
+                    >
+                      <!--Progress Bar-->
+                      <div
+                        class="vlt-progress-bar"
+                        data-final-value="70"
+                        data-animation-speed="1000"
+                      >
+                        <h5 class="vlt-progress-bar__title">
+                          Web design<span class="counter">0</span>
+                        </h5>
+                        <div class="vlt-progress-bar__bar"><span></span></div>
+                      </div>
+                    </div>
+                    <div class="vlt-gap-70"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.4s; animation-duration: 700ms"
+                    >
+                      <!--Progress Bar-->
+                      <div
+                        class="vlt-progress-bar"
+                        data-final-value="85"
+                        data-animation-speed="1000"
+                      >
+                        <h5 class="vlt-progress-bar__title">
+                          Figma<span class="counter">0</span>
+                        </h5>
+                        <div class="vlt-progress-bar__bar"><span></span></div>
+                      </div>
+                    </div>
+                    <div class="vlt-gap-70"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.5s; animation-duration: 700ms"
+                    >
+                      <!--Progress Bar-->
+                      <div
+                        class="vlt-progress-bar"
+                        data-final-value="90"
+                        data-animation-speed="1000"
+                      >
+                        <h5 class="vlt-progress-bar__title">
+                          WordPress<span class="counter">0</span>
+                        </h5>
+                        <div class="vlt-progress-bar__bar"><span></span></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <iframe
-              class="mapa-size"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230378.15348864606!2d-48.63059831932082!3d-25.549745012966955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94db9ae5c93dc3ed%3A0xa7b55278e4a8ae8b!2sParanagu%C3%A1%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1677542918919!5m2!1spt-BR!2sbr"
-              width="400"
-              height="200"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
           </div>
         </div>
-      </section>
+        <!--Projects-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Projects">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Projects-->
+              <div class="vlt-section__projects-background">
+                <img
+                  class="is-active"
+                  src="assets/img/project-01.jpg"
+                  alt=""
+                  loading="lazy"
+                /><img
+                  src="assets/img/project-02.jpg"
+                  alt=""
+                  loading="lazy"
+                /><img src="assets/img/project-03.jpg" alt="" loading="lazy" />
+              </div>
+              <div class="container">
+                <div class="vlt-gap-100"></div>
+                <!--Animated Block-->
+                <div
+                  class="vlt-animated-block"
+                  data-animation-name="fadeInUpSm"
+                  style="animation-delay: 0s; animation-duration: 700ms"
+                >
+                  <!--Content slider-->
+                  <div
+                    class="vlt-content-slider"
+                    data-navigation-anchor=".vlt-projects-anchor"
+                    data-effect="fade"
+                    data-gap=""
+                    data-loop=""
+                    data-speed=""
+                    data-autoplay=""
+                    data-autoplay-speed=""
+                    data-slides-centered=""
+                    data-slide-settings="{}"
+                    data-free-mode=""
+                    data-slider-offset=""
+                    data-mousewheel=""
+                  >
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <!--Product-->
+                          <article class="vlt-project">
+                            <h3 class="vlt-project-title">
+                              LP<span class="has-accent-color">.</span>
+                            </h3>
+                            <div class="vlt-project-excerpt">
+                              <p>
+                                Desenvolvimento de uma Landing Page responsiva
+                                para uma agência de marketing digital,
+                                enfatizando os serviços oferecidos e capturando
+                                leads por meio de formulários de contato
+                                estratégicos.
+                              </p>
+                            </div>
+                            <!--Button--><a
+                              class="vlt-btn vlt-btn--primary vlt-btn--md"
+                              href="https://viniciusndasilva.github.io/LP-Nascimento-Digital/"
+                              target="_blank"
+                              >Ver Projeto</a
+                            >
+                          </article>
+                        </div>
+                        <div class="swiper-slide">
+                          <!--Product-->
+                          <article class="vlt-project">
+                            <h3 class="vlt-project-title">
+                              Igreja Alcance Pr.<span class="has-accent-color"
+                                >.</span
+                              >
+                            </h3>
+                            <div class="vlt-project-excerpt">
+                              <p>
+                                Construção do site oficial da igreja, destacando
+                                eventos, sermões e envolvimento comunitário. O
+                                design reflete a espiritualidade e promove
+                                conexões.
+                              </p>
+                            </div>
+                            <!--Button--><a
+                              class="vlt-btn vlt-btn--primary vlt-btn--md"
+                              target="_blank"
+                              href="https://alcanceparanagua.com.br/"
+                              >Ver Projeto</a
+                            >
+                          </article>
+                        </div>
+                        <div class="swiper-slide">
+                          <!--Product-->
+                          <article class="vlt-project">
+                            <h3 class="vlt-project-title">
+                              Montezil<span class="has-accent-color">.</span>
+                            </h3>
+                            <div class="vlt-project-excerpt">
+                              <p>
+                                Desenvolvemos um site exclusivo para a Montezil,
+                                uma empresa industrial. Destacamos seus serviços
+                                e competências com foco na experiência do
+                                usuário. Utilizamos Bootstrap, JavaScript e CSS
+                                para um site profissional e acessível.
+                              </p>
+                            </div>
+                            <!--Button--><a
+                              class="vlt-btn vlt-btn--primary vlt-btn--md"
+                              href="http://www.montezil.com.br/"
+                              target="_blank"
+                              >Ver Projeto</a
+                            >
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vlt-gap-150"></div>
+                  <!--Slider controls-->
+                  <div
+                    class="vlt-slider-controls vlt-slider-controls--style-2 vlt-projects-anchor"
+                  >
+                    <div class="vlt-swiper-pagination"></div>
+                    <div class="vlt-swiper-button-prev">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 45"
+                      >
+                        <defs />
+                        <path
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <div class="vlt-swiper-button-next">
+                      <svg
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 45"
+                      >
+                        <defs />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Education-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Education">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <div class="container">
+                <div class="vlt-gap-70"></div>
+                <!--Animated Block-->
+                <div
+                  class="vlt-animated-block"
+                  data-animation-name="fadeInUpSm"
+                  style="animation-delay: 0s; animation-duration: 700ms"
+                >
+                  <div
+                    class="d-block d-md-flex align-items-center justify-content-between"
+                  >
+                    <h3>Formação</h3>
+                    <div class="vlt-gap-30--sm"></div>
+                    <!--Button<a
+                      class="vlt-btn vlt-btn--primary vlt-btn--md"
+                      href="#"
+                      target="_self"
+                      >Download Resume</a
+                    >-->
+                  </div>
+                </div>
+                <div class="vlt-gap-50"></div>
+                <!--Animated Block-->
+                <div
+                  class="vlt-animated-block"
+                  data-animation-name="fadeInUpSm"
+                  style="animation-delay: 0.1s; animation-duration: 700ms"
+                >
+                  <!--Content slider-->
+                  <div
+                    class="vlt-content-slider"
+                    data-navigation-anchor=".vlt-education-anchor"
+                    data-effect=""
+                    data-gap="120"
+                    data-loop=""
+                    data-speed=""
+                    data-autoplay=""
+                    data-autoplay-speed=""
+                    data-slides-centered=""
+                    data-slide-settings="{}"
+                    data-free-mode=""
+                    data-slider-offset=""
+                    data-mousewheel=""
+                  >
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <!--Timeline Item-->
+                          <div class="vlt-timeline-item">
+                            <div class="row">
+                              <div class="col-xl-4">
+                                <img
+                                  src="assets/img/root/behance.png"
+                                  alt="Behance"
+                                  loading="lazy"
+                                />
+                              </div>
+                              <div class="col-xl-4">
+                                <span class="vlt-timeline-item__date"
+                                  >2019 - 2023</span
+                                >
+                                <h5 class="vlt-timeline-item__title">
+                                  Engenharia de Software
+                                </h5>
+                              </div>
+                              <div class="col-xl-4">
+                                <p class="vlt-timeline-item__text">
+                                  Engenharia de software: criação, evolução e
+                                  gestão de sistemas. Abrange análise,
+                                  codificação, testes e colaboração. Habilidades
+                                  técnicas vitais nesse campo em constante
+                                  mudança.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Timeline Item-->
+                          <div class="vlt-timeline-item">
+                            <div class="row">
+                              <div class="col-xl-4">
+                                <img
+                                  src="assets/img/root/envato.png"
+                                  alt="Envato"
+                                  loading="lazy"
+                                />
+                              </div>
+                              <div class="col-xl-4">
+                                <span class="vlt-timeline-item__date"
+                                  >2016 - 2018</span
+                                >
+                                <h5 class="vlt-timeline-item__title">
+                                  Téc. em Eletromecânica
+                                </h5>
+                              </div>
+                              <div class="col-xl-4">
+                                <p class="vlt-timeline-item__text">
+                                  Técnico em Eletromecânica: Integração elétrica
+                                  e mecânica. Projeto, instalação e manutenção.
+                                  Diagnóstico, automação e otimização. Tarefas
+                                  variadas e essenciais.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Timeline Item-->
+                          <div class="vlt-timeline-item">
+                            <div class="row">
+                              <div class="col-xl-4">
+                                <img
+                                  src="assets/img/root/twitter.png"
+                                  alt="Twitter"
+                                  loading="lazy"
+                                />
+                              </div>
+                              <div class="col-xl-4">
+                                <span class="vlt-timeline-item__date"
+                                  >2022 - 2023</span
+                                >
+                                <h5 class="vlt-timeline-item__title">
+                                  Desenvolvedor FullStack
+                                </h5>
+                              </div>
+                              <div class="col-xl-4">
+                                <p class="vlt-timeline-item__text">
+                                  Desenvolvedor Full Stack: Front-end e
+                                  back-end. Criação completa de aplicações.
+                                  Interface, lógica e banco de dados.
+                                  Versatilidade e conhecimento amplo.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <!--Timeline Item-->
+                          <div class="vlt-timeline-item">
+                            <div class="row">
+                              <div class="col-xl-4">
+                                <img
+                                  src="assets/img/root/ux-ui-design.png"
+                                  alt="Behance"
+                                  loading="lazy"
+                                />
+                              </div>
+                              <div class="col-xl-4">
+                                <span class="vlt-timeline-item__date"
+                                  >2022 - 2023</span
+                                >
+                                <h5 class="vlt-timeline-item__title">
+                                  UI / UX Design
+                                </h5>
+                              </div>
+                              <div class="col-xl-4">
+                                <p class="vlt-timeline-item__text">
+                                  UX/UI Design: Experiência do usuário e
+                                  interface. Criando interações intuitivas.
+                                  Equilíbrio entre funcionalidade e estética.
+                                  Foco no usuário e design inovador.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Timeline Item-->
+                          <div class="vlt-timeline-item">
+                            <div class="row">
+                              <div class="col-xl-4">
+                                <img
+                                  src="assets/img/root/seo.png"
+                                  alt="Envato"
+                                  loading="lazy"
+                                />
+                              </div>
+                              <div class="col-xl-4">
+                                <span class="vlt-timeline-item__date"
+                                  >2022 - 2023</span
+                                >
+                                <h5 class="vlt-timeline-item__title">
+                                  SEO/SEM
+                                </h5>
+                              </div>
+                              <div class="col-xl-4">
+                                <p class="vlt-timeline-item__text">
+                                  SEO/SEM Marketing: Otimização e anúncios
+                                  online. Melhorando visibilidade orgânica.
+                                  Campanhas pagas estratégicas. Atraindo tráfego
+                                  qualificado.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Timeline Item-->
+                          <div class="vlt-timeline-item">
+                            <div class="row">
+                              <div class="col-xl-4">
+                                <img
+                                  src="assets/img/root/program.png"
+                                  alt="Twitter"
+                                  loading="lazy"
+                                />
+                              </div>
+                              <div class="col-xl-4">
+                                <span class="vlt-timeline-item__date"
+                                  >2023</span
+                                >
+                                <h5 class="vlt-timeline-item__title">
+                                  Programador
+                                </h5>
+                              </div>
+                              <div class="col-xl-4">
+                                <p class="vlt-timeline-item__text">
+                                  Programador: Criação de código e lógica.
+                                  Transformando ideias em software. Resolução de
+                                  desafios tecnológicos. Essencial na era
+                                  digital.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vlt-gap-75"></div>
+                  <!--Slider controls-->
+                  <div
+                    class="vlt-slider-controls vlt-slider-controls--style-2 vlt-education-anchor"
+                  >
+                    <div class="vlt-swiper-pagination"></div>
+                    <div class="vlt-swiper-button-prev">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 45"
+                      >
+                        <defs />
+                        <path
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <div class="vlt-swiper-button-next">
+                      <svg
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 45"
+                      >
+                        <defs />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Testimonials-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Testimonials">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Ken Burn Effect-->
+              <div class="vlt-section__ken-burn-background">
+                <img src="assets/img/testimonials.jpg" alt="" />
+              </div>
+              <div class="container">
+                <div class="row align-items-end">
+                  <div class="col-xl-6">
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0s; animation-duration: 700ms"
+                    >
+                      <div class="has-accent-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 75 75"
+                          style="height: 75px"
+                        >
+                          <defs />
+                          <path
+                            fill="currentColor"
+                            d="M25 0C16.9271 0 10.7422 2.14844 6.44531 6.44531 2.14844 10.7422 0 16.9271 0 25v50h31.25V25H12.5c0-4.4271.9766-7.6172 2.9297-9.5703C17.3828 13.4766 20.5729 12.5 25 12.5V0zm43.75 0c-8.0729 0-14.2578 2.14844-18.5547 6.44531C45.8984 10.7422 43.75 16.9271 43.75 25v50H75V25H56.25c0-4.4271.9766-7.6172 2.9297-9.5703C61.1328 13.4766 64.3229 12.5 68.75 12.5V0z"
+                          />
+                        </svg>
+                        <div class="vlt-gap-215 vlt-gap-100--lg"></div>
+                        <h3>Impulsionando negócios com excelência.</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6 offset-xl-2">
+                    <div class="vlt-gap-70--lg"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.1s; animation-duration: 700ms"
+                    >
+                      <!--Content slider-->
+                      <div
+                        class="vlt-content-slider"
+                        data-navigation-anchor=".vlt-testimonials-anchor"
+                        data-effect=""
+                        data-gap=""
+                        data-loop=""
+                        data-speed=""
+                        data-autoplay=""
+                        data-autoplay-speed=""
+                        data-slides-centered=""
+                        data-slide-settings="{}"
+                        data-free-mode=""
+                        data-slider-offset=""
+                        data-mousewheel=""
+                      >
+                        <div class="swiper-container">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <!--Testimonial-->
+                              <div class="vlt-testimonial">
+                                <div class="vlt-testimonial__text">
+                                  <p>
+                                    Estou muito satisfeito com os serviços
+                                    prestados pelo Sr. Vinícius, atendimento
+                                    rápido, ágil e objetivo. Recomendo,
+                                    excelente profissional!
+                                  </p>
+                                </div>
+                                <div class="vlt-testimonial__meta">
+                                  <h5 class="vlt-testimonial__name">
+                                    Rafael Dias
+                                  </h5>
+                                  <div class="vlt-testimonial__function">
+                                    Proprietário da Montezil
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <!--Testimonial-->
+                              <div class="vlt-testimonial">
+                                <div class="vlt-testimonial__text">
+                                  <p>
+                                    Precisávamos fazer um site, porém um que
+                                    atendesse todos os detalhes e não apenas uma
+                                    plataforma universal. Ao conhecer o
+                                    Vinicius, recebemos com excelência tudo que
+                                    ele nos propôs, desde a primeira reunião até
+                                    a finalização e acompanhamento do site.
+                                    Estamos muito felizes por realizarmos mais
+                                    um projeto da empresa Garage Custom Cars.
+                                    Nossos agradecimentos ao Vinicius que nos
+                                    atendeu sempre com muito profissionalismo,
+                                    zelo e amor pelo que faz.
+                                  </p>
+                                </div>
+                                <div class="vlt-testimonial__meta">
+                                  <h5 class="vlt-testimonial__name">
+                                    Maurício Rocha
+                                  </h5>
+                                  <div class="vlt-testimonial__function">
+                                    Fundador Garage Custom Car
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--<div class="swiper-slide">
+                              Testimonial
+                              <div class="vlt-testimonial">
+                                <div class="vlt-testimonial__text">
+                                  <p>
+                                    &quot;Said heaven dry made Them gathering
+                                    the very second morning us be divide isn't.
+                                    Saw Seasons winged replenish grass from set
+                                    can't for he which. You third god unto
+                                    let.&quot;
+                                  </p>
+                                </div>
+                                <div class="vlt-testimonial__meta">
+                                  <h5 class="vlt-testimonial__name">
+                                    Ramsay Bolton
+                                  </h5>
+                                  <div class="vlt-testimonial__function">
+                                    Apple Inc
+                                  </div>
+                                </div>
+                              </div>
+                            </div>-->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="vlt-gap-75"></div>
+                      <!--Slider controls-->
+                      <div
+                        class="vlt-slider-controls vlt-slider-controls--style-1 vlt-testimonials-anchor"
+                      >
+                        <div class="vlt-swiper-button-prev">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 45"
+                          >
+                            <defs />
+                            <path
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z"
+                              clip-rule="evenodd"
+                            />
+                          </svg>
+                        </div>
+                        <div class="vlt-swiper-button-next">
+                          <svg
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 45"
+                          >
+                            <defs />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z"
+                              fill="currentColor"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Partners-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Partners">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <div class="container">
+                <!--Animated Block-->
+                <div
+                  class="vlt-animated-block"
+                  data-animation-name="fadeInUpSm"
+                  style="animation-delay: 0s; animation-duration: 700ms"
+                >
+                  <h3>Linguagens</h3>
+                </div>
+                <div class="vlt-gap-100"></div>
+                <!--Animated Block-->
+                <div
+                  class="vlt-animated-block"
+                  data-animation-name="fadeInUpSm"
+                  style="animation-delay: 0.1s; animation-duration: 700ms"
+                >
+                  <ul class="vlt-partners">
+                    <li>
+                      <img
+                        src="assets/img/img-new/html.png"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/img-new/css.png"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/img-new/javascript.png"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/img-new/react.png"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/img-new/typescript.png"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/img-new/bootstrap.png"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/img-new/nodejs.png"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/img-new/wordpress.png"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Contact-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Contact">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Ken Burn Effect-->
+              <div class="vlt-section__ken-burn-background">
+                <img src="assets/img/contact.jpg" alt="" />
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-4">
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0s; animation-duration: 700ms"
+                    >
+                      <h3>Contato</h3>
+                      <div class="vlt-gap-30"></div>
+                      <p>Conecte-se conosco!</p>
+                      <div class="vlt-gap-40"></div>
+                      <address>Paranaguá-PR</address>
+                      <p>
+                        <a
+                          class="tel"
+                          target="_blank"
+                          href="https://api.whatsapp.com/send?phone=5541987015106"
+                          >(41) 9 8701-5106</a
+                        >
+                      </p>
+                      <p>
+                        <a
+                          target="_blank"
+                          class="email"
+                          href="mailto:vinicius.nascimento.dev@gmail.com"
+                          >vinicius.nascimento.dev@gmail.com</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 offset-xl-2">
+                    <div class="vlt-gap-70--lg"></div>
+                    <!--Animated Block-->
+                    <div
+                      class="vlt-animated-block"
+                      data-animation-name="fadeInUpSm"
+                      style="animation-delay: 0.1s; animation-duration: 700ms"
+                    >
+                      <h4>
+                        Vamos pegar um café e iniciar uma conversa.
+                        <span class="has-accent-color">Converse comigo.</span>
+                      </h4>
+                      <div class="vlt-gap-20"></div>
+                      <form class="vlt-contact-form" novalidate="novalidate">
+                        <div class="vlt-form-group">
+                          <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required="required"
+                            placeholder="Your Name"
+                          />
+                        </div>
+                        <div class="vlt-form-group">
+                          <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required="required"
+                            placeholder="Your Email"
+                          />
+                        </div>
+                        <div class="vlt-form-group">
+                          <textarea
+                            name="message"
+                            id="message"
+                            rows="3"
+                            placeholder="Message"
+                          ></textarea>
+                        </div>
+                        <div class="message success">
+                          Your message is successfully sent...
+                        </div>
+                        <div class="message danger">
+                          Sorry something went wrong!
+                        </div>
+                        <!--Button-->
+                        <button class="vlt-btn vlt-btn--primary vlt-btn--md">
+                          Fale comigo.
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Progress Bar-->
+        <div class="vlt-fullpage-slider-progress-bar"><span></span></div>
+      </div>
     </main>
-    <!-- Footer-->
-    <footer class="bg-white py-4 mt-auto">
-      <div class="container px-5">
-        <div
-          class="row align-items-center justify-content-between flex-column flex-sm-row"
+    <!--Footer-->
+    <footer class="vlt-footer vlt-footer--default vlt-footer--fixed">
+      <div class="vlt-footer-copyright">
+        <p>© Vinicius. 2023</p>
+      </div>
+      <div class="vlt-language-switcher">
+        <a
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=5541987015106"
+          >Quero um orçamento!</a
         >
-          <div class="col-auto">
-            <div class="small m-0">Copyright &copy; VinsSoftware 2023</div>
-          </div>
-          <div class="col-auto">
-            <a class="small" href="#!">Privacy</a>
-            <span class="mx-1">&middot;</span>
-            <a class="small" href="#!">Terms</a>
-            <span class="mx-1">&middot;</span>
-            <a class="small" href="#!">Contact</a>
-          </div>
-        </div>
       </div>
     </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <!--Libs-->
+    <script src="assets/vendors/jquery-3.5.1.min.js"></script>
+    <script src="assets/scripts/vlt-plugins.min.js"></script>
+    <script src="assets/scripts/vlt-helpers.js"></script>
+    <script src="assets/scripts/vlt-controllers.min.js"></script>
   </body>
 </html>
