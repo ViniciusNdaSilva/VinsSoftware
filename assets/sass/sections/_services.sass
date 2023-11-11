@@ -1,0 +1,34 @@
+/*******************************************************/
+/******************* ## Services Area *****************/
+/*******************************************************/
+.service-item
+    display: flex
+    transition: 0.5s
+    padding: 35px 50px
+    margin-bottom: 30px
+    border-radius: 15px
+    background: $lighter-color
+    border: 1px solid $border-color
+    +res-bl(sm)
+        +gapLR(padding, 25px)
+    +res-bl(ms)
+        display: block
+    .number
+        color: white
+        font-size: 24px
+        margin-right: 50px
+        font-family: $heading-font
+    .content
+        +res-bl(ms)
+            +gapTB(margin, 25px)
+        p
+            margin-bottom: 0
+    .details-btn
+        flex: none
+        margin-left: auto
+        align-self: center
+    &:hover
+        border-color: $primary-color
+        .details-btn
+            color: $black-color
+            background: $primary-color

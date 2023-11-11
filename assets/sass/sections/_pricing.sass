@@ -1,0 +1,65 @@
+/*******************************************************/
+/****************** ## Pricing Area *******************/
+/*******************************************************/
+.pricing-item
+    padding: 10px
+    border-radius: 16px
+    margin-bottom: 30px
+    background: $lighter-color
+    .pricing-header
+        padding: 47px 50px
+        border-radius: 16px
+        background: #131313
+        border: 1px solid $border-color
+        +res-bl(xl)
+            +gapLR(padding, 25px)
+        .save-percent
+            margin-bottom: 40px
+            color: rgba(255, 255, 255, 0.35)
+            span
+                color: $primary-color
+        .price
+            font-size: 48px
+            font-weight: 500
+            color: $primary-color
+            font-family: $heading-font
+            +res-bl(xl)
+                font-size: 40px
+            +res-bl(xs)
+                font-size: 35px
+            &:before
+                content: '$'
+            &:after
+                font-size: 16px
+                font-weight: 400
+                color: $base-color
+                content: '/per month'
+    .pricing-details
+        padding: 40px 50px
+        +res-bl(xl)
+            +gapLR(padding, 25px)
+        p
+            margin-bottom: 35px
+        ul
+            padding-bottom: 12px
+            li
+                color: white
+                font-size: 20px
+                margin-bottom: 34px
+                +res-bl(xs)
+                    font-size: 18px
+                &:before
+                    content: "\f00c"
+                    font-size: 18px
+                    margin-right: 15px
+                    color: $primary-color
+                    font-family: 'Font Awesome 5 Pro'
+                &.unable
+                    color: white
+                    opacity: 0.35
+                    &:before
+                        color: white
+    &:not(:hover)
+        .theme-btn
+            color: $base-color
+            background: rgba(255, 255, 255, 0.1)
