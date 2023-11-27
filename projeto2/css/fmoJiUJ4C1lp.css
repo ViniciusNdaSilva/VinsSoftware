@@ -1,0 +1,1048 @@
+/*------------------------------------------------------------------
+[Responsive Stylesheet]
+
+Project:    MODELTHEME
+Version:    1.0
+Author:     Modeltheme
+URL:        http://quintuswp.modeltheme.com/
+
+[Table of contents]
+
+1. Responsive Max_319px
+2. Responsive Min_320px Max_479px
+3. Responsive Max_479px
+4. Responsive Min_480px Max_767px
+5. Responsive Max_767px
+6. Responsive Min_768px
+7. Responsive Max_960px
+8. Responsive Max_1024px
+9. Responsive Min_1024px
+10. Responsive Min_1367px
+11. Responsive Min_768px and Max_1023px
+12. Responsive Max_600px
+13. Responsive Min_600px
+14. Responsive Min_480px Max_1200px
+15. Responsive Min_480px Max_680px
+16. Responsive Min_990px Max_1100px
+17. Responsive Max_990px
+18. Responsive Min_768px and Max_1023px
+19. Responsive Min_480px Max_990px
+20. Responsive Min_1439px
+
+-------------------------------------------------------------------*/
+
+/*--- 1. Responsive Max_319px ---*/
+@media only screen and (min-width: 240px) and (max-width: 319px) {
+    footer .footer-top  .widget .widget-title{
+        margin-bottom: 10px;
+    }
+    footer .widget.widget_text {
+        margin-bottom: 20px;
+    }
+    .top_section .wpb_wrapper h1 span {
+        font-size: 45px !important;
+        line-height: 44px !important;
+    }
+    body header .navbar-header h1.logo {
+        max-width: 140px;
+    }
+    /* Add new rules for this interval below */
+    .container .text-center .mt_about_button {
+        padding-left: 18px !important;
+        margin-right: -30px !important;
+    }
+    .content-area .col-md-7 h1{
+    text-align: center;
+    font-size: 16px !important;
+    }
+    .content-area .col-md-5 ol{
+    text-align: center;
+    font-size: 12px !important;
+    }
+    .container .article-content h2{
+        font-size: 25px;
+    }
+    .row .container .mt_blog_align_fist_section .mt_margin_top_55 .col-md-7 h1{
+        padding-left: 37% !important;
+    }
+    .row .container .mt_blog_align_fist_section .mt_margin_top_55 .col-md-5 ol{
+        padding-right: 37%;
+        margin-top: -25px;
+    }
+    .carousel-caption-inner{
+        padding-right: 15px;
+    }
+    .fixed-search-inside .search-input{
+        font-size: 20px !important;
+        padding-left: 10px !important;
+    }
+}
+
+
+
+/*--- 2. Responsive Min_320px Max_479px ---*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .testimonial-author-job > h4 {
+        font-size: 14px;
+    }
+    .top_section .wpb_wrapper h1 span {
+        font-size: 52px !important;
+        line-height: 52px !important;
+    }
+    /* Add new rules for this interval below */
+    .content-area .col-md-7 h1{
+        text-align: center;
+        font-size: 18px !important;
+    }
+    .content-area .col-md-5 ol{
+        text-align: center;
+        font-size: 12px !important;
+    }
+    .row .container .mt_blog_align_fist_section .mt_margin_top_55 .col-md-7 h1{
+        padding-left: 37% !important;
+    }
+    .row .container .mt_blog_align_fist_section .mt_margin_top_55 .col-md-5 ol{
+        padding-right: 37%;
+        margin-top: -25px;
+    }
+     .carousel-caption-inner{
+        padding-right: 15px;
+    }
+    .fixed-search-inside .search-input{
+        font-size: 25px !important;
+        padding-left: 20px !important;
+    }
+}
+
+
+/*--- 3. Responsive Max_479px ---*/
+@media only screen and (max-width: 479px) {
+    .header-title-breadcrumb .post-category-date {
+        display: none;
+    }
+    .portfolio-items .col-md-2 {
+        width: 100%;
+        float: left;
+        margin-bottom: 80px;
+    }
+    .tp-leftarrow.default, 
+    .tp-rightarrow.default{
+        display: none;
+    }
+    .menu-item-has-children::after{
+        display: block !important;
+    }
+    .wpb_wrapper ul.ecs-event-list li {
+        margin-bottom: 20px !important;
+        width: 95% !important;
+    }
+    /* Add new rules for this interval below */
+    .carousel .carousel-caption p {
+        font-size: 8px !important;
+    }
+    .carousel .carousel-caption h3 {
+        font-size: 30px !important;
+    }
+    .carousel .carousel-caption button {
+        display: none;
+        font-size: 5px !important;
+    }
+    .pricing .pricing__price {
+        font-size: 30px !important;
+    }
+    .container h1 {
+        font-size: 30px !important;
+    }
+    .container .text-center .mt_about_button {
+        padding-left: 18px !important;
+        margin-right: -30px !important;
+    }
+}
+
+
+/*--- 4. Responsive Min_480px Max_767px ---*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .portfolio-items .col-md-2 {
+        width: 50%;
+        float: left;
+        margin-bottom: 80px;
+    }
+    .menu-item-has-children::after{
+        display: none !important;
+    }
+    .top_section .wpb_wrapper span {
+        line-height: 80px;
+    }
+    h2.vc_custom_heading {
+        font-size: 40px !important;
+    }
+    /* Add new rules for this interval below */
+    .container .text-center .mt_about_button {
+        padding-left: 20px !important;
+        margin-right: -30px !important;
+    }
+    .content-area .col-md-7 h1{
+        text-align: center;
+        font-size: 22px !important;
+    }
+    .content-area .col-md-5 ol{
+        text-align: center;
+    }
+    .row .container .mt_blog_align_fist_section .mt_margin_top_55 .col-md-7 h1{
+        padding-left: 37% !important;
+    }
+    .row .container .mt_blog_align_fist_section .mt_margin_top_55 .col-md-5 ol{
+        padding-right: 37%;
+        margin-top: -25px;
+    }
+     .carousel-caption-inner{
+        padding-right: 15px;
+    }
+    .fixed-search-inside .search-input{
+        text-align: center;
+    }
+}
+
+
+/*--- 5. Responsive Max_767px ---*/
+
+@media only screen and (max-width: 767px) {
+    .custom_heading.mt_404_message{
+        font-size: 80px;
+        line-height: 100px;
+    }
+    .mt_404_first_h3{
+        line-height: normal;
+    }
+    .section-about.flex {
+        display: block;
+    }
+    .block-about {
+        padding: 30px 60px;
+    }
+    .carousel .carousel-caption p {
+        font-size: 12px;
+    }
+    .carousel .carousel-caption h3 {
+        font-size: 40px;
+    }
+    .prev-next-post {
+        display: none;
+    }
+    .related-posts .post {
+        margin-bottom: 30px;
+    }
+    .single #comments .children{
+        padding: 0;
+    }
+    .avatar.photo {
+        max-width: 40px;
+    }
+    header #navbar .cf-mega-menu.sub-menu * {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    .cf-mega-menu span {
+        color: #000000 !important;
+    }
+    .header-infos{
+        display: none;
+    }
+    #navbar .menu-item .sub-menu .menu-item .sub-menu {
+        left: 0;
+        position: relative;
+        top: 0;
+    }
+    body header #navbar .sub-menu li:last-child, body header #navbar .sub-menu li {
+        border-bottom: 0 none;
+    }
+    body #navbar .sub-menu li:last-child, body #navbar .sub-menu li {
+        border-bottom: 0 none;
+    }
+    header #navbar .sub-menu .menu-item > a {
+        color: #000000;
+        font-weight: 500;
+    }
+    .mt-icon-list-item .mt-icon-list-text {
+        color: #000000 !important;
+        font-weight: bolder;
+    }
+    header #navbar .menu-item:hover .sub-menu {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        opacity: 1 !important;
+        top: 0 !important;
+        visibility: visible !important;
+    }
+    header #navbar .sub-menu {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        display: block;
+        opacity: 1;
+        left: 0;
+        padding: 0;
+        position: relative;
+        visibility: visible;
+        top: 0;
+        width: 100%;
+    }
+    .navbar-collapse .menu .menu-item {
+        text-align: left;
+    }
+    body #modeltheme-main-head {
+        display: inline-table;
+        height: auto;
+        padding: 0;
+    }
+    body header #navbar .menu-item > a {
+        padding: 0 15px !important;
+    }
+    header .navbar-header h1.logo {
+        margin: 20px 10px;
+        max-width: 200px;
+        text-align: left;
+    }
+    .related-posts .post-name a {
+        font-size: 20px;
+    }
+    .single.single-post .post-name {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .related-posts {
+        padding: 0 15px;
+    }
+    .header-title-breadcrumb .header-title-breadcrumb-overlay h1 {
+        font-size: 14px;
+    }
+    .header-group .breadcrumb{
+        display: none;
+    }
+    .widget_text .shop_feature_v2 .shop_feature_icon_v2 {
+        padding: 7px;
+    }
+    .sticky_post_text_container {
+        margin-bottom: 30px;
+    }
+    .courses-list .course_text_content h5 {
+        clear: both;
+    }
+    .courses-list .course_more_container {
+        text-align: right !important;
+    }
+    .courses-list .all_courses_box .all_courses_title {
+        padding-top: 10px;
+    }
+    .all_courses_box .all_courses_buton {
+        margin-bottom: 30px;
+    }
+    .all_courses_box {
+        margin-bottom: 30px;
+    }
+    .shortcode_post_content .text_content .post-download-icons {
+        display: none;
+    }
+    .pricing-table {
+        margin-top: 30px;
+    }
+    .search_products {
+        display: none;
+    }
+    .menu-item-has-children::after {
+        background: transparent none repeat scroll 0 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid #000;
+        color: rgba(255, 255, 255, 0.85);
+        content: "";
+        cursor: pointer;
+        height: 22px;
+        opacity: 0.5;
+        padding: 1px;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 18px;
+        transform: none;
+        width: 0;
+    }    
+    body .navbar-header .logo {
+        margin: 10px 0;
+        text-align: center;
+    }
+    footer p.copyright {
+        margin: 0 0 10px;
+        padding-top: 0;
+        text-align: center;
+    }
+    footer .payment-methods{
+        text-align: center;
+    }
+    footer .payment-methods img {
+        float: none !important;
+    }
+    #page .top-header{
+        padding: 15px 0;
+    }
+    .top-header .account-urls {
+        margin-top: 10px;
+    }
+    .widget .widget_address_social_icons .social-links > li:first-child{
+        margin-left: 0;
+    }
+    .widget .widget_address_social_icons .social-links a i {
+        padding: 13px;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }
+    .widget .widget_address_social_icons .social-links a {
+        height: 40px;
+        width: 40px;
+    }
+    .widget .widget_address_social_icons .social-links > li {
+        height: 40px;
+        margin-bottom: 5px;
+        margin-right: 1px;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        width: 40px;
+    }
+    .modeltheme-breadcrumbs h2{
+        font-size: 17px;
+    }
+    .latest-posts .single-post .vc_col-md-3.text-center {
+        display: none;
+    }    
+    footer nav.menu {
+        float: left;
+    }
+    footer nav.menu li:first-child a {
+        margin-left: 0;
+    }
+    body .navbar ul li:hover ul.sub-menu {
+        border: 0 none;
+        left: 0;
+        margin: 0;
+        opacity: 1;
+        position: relative;
+        top: 0;
+        visibility: visible;
+        width: 100%;
+    }
+    .menu-item-has-children {
+        cursor: pointer;
+    }
+    body .navbar ul li ul.sub-menu {
+        border: 0 none;
+        left: 0;
+        margin: 0;
+        opacity: 1;
+        position: relative;
+        top: 0;
+        display: none;
+        visibility: visible;
+        width: 100%;
+    }
+    body #navbar .sub-menu li:last-child,
+    body #navbar .sub-menu li {
+        border-bottom: 1px solid #3d4f61;
+        position: relative;
+    }
+    .widget.widget_flickr {
+        clear: both;
+    }
+    .widget_recent_entries_with_thumbnail .thumbnail-overlay {
+        width: 70px;
+    }
+    .widget_recent_entries_with_thumbnail .post-details {
+        padding: 0;
+    }
+    body .navbar-default .navbar-collapse, 
+    body .navbar-default .navbar-form {
+        border-color: rgba(0, 0, 0, 0);
+    }
+    .navbar-collapse.vc_col-md-9.collapse.in {
+        width: 100%;
+    }
+    .navbar-collapse li {
+        width: 100%;
+    }
+    .header_mini_cart {
+        display: none;
+    }
+    body .navbar ul li ul.sub-menu li::before {
+        content: none;
+        position: absolute;
+        top: 10px;
+        color: white;
+        left: 14px;
+    }
+    .modeltheme-breadcrumbs .breadcrumb {
+        display: none;
+    }
+    .menu.nav-effect.nav-menu {
+        margin: 0;
+        text-align: left;
+        width: 100%;
+    }
+    .smartowl_skin_switcher {
+        display: none;
+    }
+    body .navbar-nav > li > a {
+        padding: 15px 0;
+    }
+    .navbar-collapse.collapse.in .menu .item:hover {
+        background: #253749;
+    }
+    .navbar-collapse .menu .item,
+    .navbar-collapse.collapse.in .menu .item {
+        width: 100%;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .logo {
+        margin: 15px 0;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle {
+        border: 2px solid #fff;
+        margin: 21px 0;
+        transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -ms-transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+    }
+    #navbar .menu-item > a {
+        padding: 15px 10px 24px;
+    }
+    header.header3 .navbar-nav.nav-menu,
+    header.header10 .navbar-nav.nav-menu {
+        margin-right: 0px !important;
+    }
+    header.header4 .navbar-nav.nav-menu,
+    header.header11 .navbar-nav.nav-menu {
+        margin-left: 0px !important;
+    }
+    #mt-nav-burger {
+        display: none;
+    }
+    .logo img, .navbar-header .logo img {
+        max-width: 180px;
+    }
+    header.header5 #navbar .menu .menu-item {
+        text-align: left;
+    }
+    header.header12 .navbar .logo {
+        display: block !important;
+    }
+    header.header12 #navbar .menu .menu-item {
+        text-align: left;
+    }
+    header.header12 .navbar-nav > li::before {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    }
+    header.header12 .navbar-default .navbar-toggle .icon-bar {
+        background: #131313 none repeat scroll 0 0;
+    }
+    header.header12 .navbar.navbar-default {
+        background-color: rgba(0, 0, 0, 0.9) !important;
+    }
+    header.header12 #navbar .menu-item > a:hover::before {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    }
+    header.header12 #navbar .menu-item > a {
+        padding: 15px 10px !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #00adf1;
+    }
+    #modeltheme-main-head .navbar-collapse.col-md-9,
+    #modeltheme-main-head .navbar-collapse.collapse.col-md-9 {
+        margin: 0;
+        width: 100%;
+    }
+    .portfolio .col-md-2:nth-child(7n+5),
+    .portfolio .col-md-2:nth-child(7n+1){
+        margin-left: 0;
+        clear: none;
+    }
+    .testimonials .testimonials-container blockquote{
+        font-size: 16px;
+    }
+    .testimonials .testimonials-container blockquote::after,
+    .testimonials .testimonials-container blockquote::before{
+        font-size: 100px;
+        top: 34%;
+    }
+    .submit-comment .comment-form .form-comment {
+        padding: 0;
+    }
+
+    body .portfolio-items .vc_col-md-2:last-child{
+        margin-bottom: 0;
+    }
+    body .portfolio-items .vc_col-md-2{
+        margin-bottom: 80px;
+    }
+    body .portfolio-items .vc_col-md-2:nth-child(7n+5),
+    body .portfolio-items .vc_col-md-2:nth-child(7n+1) {
+        margin-left: 0;
+    }
+    body .testimonials-container blockquote * {
+        font-size: 16px;
+    }
+    .testimonials-container blockquote::after,
+    .testimonials-container blockquote::before{
+        content: "";
+        display: none;
+    }
+    .testimonials-container blockquote {
+        padding: 20px 0 20px;
+        margin: 0;
+    }
+    #navbar .menu .item a {
+        padding: 10px 0;
+        padding-left: 10px;
+    }
+    body .theme_header_slider .tp-leftarrow.default::after, 
+    body .theme_header_slider .tp-rightarrow.default::after {
+        font-size: 50px;
+        line-height: 60%;
+        opacity: 0.75;
+    }
+    /* Add new rules for this interval below */
+    .parallax_contact_effect .title-subtile-holder {
+        margin-left: 30px !important;
+    }
+    .testimonials02-container .row {
+        display: block !important;
+    }
+    .row .mt_blog_align_sticky_posts {
+        margin-left: 0px;
+    }
+    .content-area .site-main .container .mt_404_message {
+        font-size: 110px !important;
+    }
+}
+
+
+/*--- 6. Responsive Min_768px ---*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    footer .payment-methods img {
+        float: none !important;
+    }
+    footer p.copyright {
+        margin: 0 0 10px;
+        padding-top: 0;
+        text-align: center;
+    }
+    footer .payment-methods{
+        text-align: center;
+    }
+    .navbar-nav > li > a {
+        padding: 30px 0;
+    }
+    .widget .widget_address_social_icons .social-links > li:first-child {
+        margin-left: 3px;
+    }
+    .navbar-collapse.collapse.vc_col-md-9 {
+        float: left;
+    }
+    body .navbar-nav > li > a,
+    body .menu .item a{
+        font-size: 12px;
+    }
+    #navbar .menu .item a {
+        padding: 30px 0;
+    }
+    .modeltheme-breadcrumbs h2{
+        font-size: 19px;
+    }
+    .modeltheme-breadcrumbs .breadcrumb{
+        display: none;
+    }
+    /* Add new rules for this interval below */
+    .widget-title, h3#reply-title, h2.heading-bottom{
+        font-size: 17px !important;
+    }
+    .relative .fixed-sidebar-menu .logo {
+        font-size: 24px !important;
+    }
+}
+
+
+
+/*--- 7. Responsive Max_960px ---*/
+@media screen and (max-width: 1000px) {
+    .no-results.not-found {
+        margin-bottom: 80px;
+    }
+    .comment-form .form-comment {
+        padding: 0;
+    }
+    footer .footer-top h1.widget-title {
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    .navbar-collapse.collapse.vc_col-md-9 {
+        width: 100%;
+    }    
+    .prev.page-numbers {
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }    
+    .sidebar-content {
+        margin-top: 30px;
+    }
+    .widget_smartowl_tweets_widget .tweet-title,
+    .widget_smartowl_tweets_widget .tweeter-profile {
+        padding: 0;
+    }
+    .widget_smartowl_tweets_widget .tweet-title .col-md-2,
+    .left-block-container .block-icon,
+    .latest-tweets .vc_col-md-2,
+    #contact_form .mt-half-spacer {
+        display: none;
+    }
+    #contact_form textarea,
+    #contact_form input {
+        margin-bottom: 15px;
+    }
+    .latest-posts .single-post .vc_col-md-3.text-center {
+        display: none;
+    }    
+    .component.add-to-cart, 
+    .component.wishlist, 
+    .component.compare {
+        clear: both;
+        display: block;
+        width: auto;
+    }
+    footer nav.menu {
+        float: left;
+    }
+    footer nav.menu li:first-child a {
+        margin-left: 0;
+    }
+    .widget.widget_flickr {
+        clear: both;
+    }
+    .widget_recent_entries_with_thumbnail .thumbnail-overlay {
+        width: 70px;
+    }
+    .widget_recent_entries_with_thumbnail .post-details {
+        padding: 0;
+    }
+    .logo {
+        margin: 15px 0;
+    }
+    .widget.widget_tag_cloud {
+        overflow: hidden;
+    }
+    .portfolio .col-md-2:nth-child(7n+5),
+    .portfolio .col-md-2:nth-child(7n+1){
+        margin-left: 0;
+        clear: none;
+    }
+    .testimonials .testimonials-container blockquote{
+        font-size: 16px;
+    }
+    .testimonials .testimonials-container blockquote::after,
+    .testimonials .testimonials-container blockquote::before{
+        font-size: 100px;
+        top: 34%;
+    }
+    .submit-comment .comment-form .form-comment {
+        padding: 0;
+    }
+    body .portfolio-items .vc_col-md-2:last-child{
+        margin-bottom: 0;
+    }
+    body .portfolio-items .vc_col-md-2{
+        margin-bottom: 80px;
+    }
+    body .portfolio-items .vc_col-md-2:nth-child(7n+5),
+    body .portfolio-items .vc_col-md-2:nth-child(7n+1) {
+        margin-left: 0;
+    }
+    body .testimonials-container blockquote * {
+        font-size: 16px;
+    }
+    .testimonials-container blockquote::after,
+    .testimonials-container blockquote::before{
+        content: "";
+        display: none;
+    }
+    .testimonials-container blockquote {
+        padding: 20px 0 20px;
+        margin: 0;
+    }
+    body .theme_header_slider .tp-leftarrow.default::after, 
+    body .theme_header_slider .tp-rightarrow.default::after {
+        font-size: 50px;
+        line-height: 60%;
+        opacity: 0.75;
+    }
+    .donnation-content .donnation_texts {
+        border: medium none;
+        text-align: center;
+    }
+    .donation-button-container {
+        text-align: center;
+    }
+    /* Add new rules for this interval below */
+
+
+}
+
+
+/*--- 8. Responsive Max_1024px ---*/
+@media only screen and (max-width: 1024px) {
+    .avatar.photo{
+        max-width: 40px;
+        margin-bottom: 5px;
+    }
+    #comments .children {
+        padding-left: 0;
+    }
+    body .header-nav-actions .mt-search-icon{
+        padding: 0 15px;
+    }
+    body #mt-nav-burger{
+        top: 6px;
+    }
+    body .header1 #navbar{
+        text-align: left;
+    }
+    footer aside {
+        float: left;
+        width: 100%;
+    }
+    body .navbar-header {
+        width: 100%;
+        float: none;
+    }
+    body .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        width: 100%;
+    }
+    #navbar .menu-item.mega1column > a::after, #navbar .menu-item.mega2columns > a::after, #navbar .menu-item.mega3columns > a::after, #navbar .menu-item.menu-item-has-children > a::after {
+        top: 6% !important;
+    }
+    body header #navbar .menu-item > a {
+        padding: 0 15px;
+    }
+    body .navbar-header h1.logo {
+        margin: 30px 0 10px;
+        text-align: center;
+    }
+    body #modeltheme-main-head{
+        padding: 0;
+    }
+    footer{
+        padding: 0 15px;
+    }
+    footer .social-links {
+        text-align: center;
+    }
+    .odd-post .single-post.list-view .post-date, .even-post .single-post.list-view .post-date {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        left: auto;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        padding: 0;
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+    .even-post .list-view .blog_date.blog_day,
+    .odd-post .list-view .blog_date.blog_day {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .odd-post .list-view .post-category-comment-date,
+    .even-post .list-view .post-category-comment-date {
+        margin: 0;
+    }
+    .odd-post .list-view .blog_date,
+    .even-post .list-view .blog_date {
+        display: inline-table;
+        font-size: 14px;
+        text-transform: none;
+        line-height: normal;
+    }
+    .newspaper-info-bordered .col-md-5 {
+        text-align: center;
+        display: none;
+    }
+    .newspaper-info .newspaper-info-bordered {
+        padding: 15px 0;
+        border: 0 none;
+    }
+    .smartowl_shortcode_blog .post {
+        margin-bottom: 30px;
+    }
+    ul.ecs-event-list li {
+        margin-bottom: 20px !important;
+    }
+    .donation-right-side {
+        margin: 0px;
+    }
+    .shop_feature_description_v2 {
+        padding-left: 5px;
+    }
+    /* Add new rules for this interval below */
+    .post-details {
+        padding: 30px !important; 
+    }
+    .background_orange .mt_no_mobile_flex{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1367px) {
+    body #navbar .menu-item.mega1column > a::after, 
+    body #navbar .menu-item.mega2columns > a::after, 
+    body #navbar .menu-item.mega3columns > a::after, 
+    body #navbar .menu-item.menu-item-has-children > a::after{
+        right: 0;
+    }
+    body header .header-nav-actions{
+        padding: 0;
+    }
+    /* Add new rules for this interval below */
+    .container .row .header-infos {
+        display: -webkit-inline-box !important;
+        margin-right: -50px !important;
+    }
+    .row .flex .mt_no_mobile_flex{
+        display: block !important;
+    }
+
+
+}
+
+
+
+/*11. Responsive Min_768px and Max_1023px*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    /* Add new rules for this interval below */
+    .section-about.flex {
+        display: grid !important;
+    }
+    .block-about {
+        padding: 30px 60px;
+    }
+    .row .mt_pic_1{
+        width: 205%;
+    }
+    .section-about .row .mt_pic_1 img{
+        margin-bottom: 0px !important;
+        margin-top: 25px !important;
+    }
+    .row .mt_align_text_about_quintus{
+        margin-left: -70%;
+        width: 255%;
+    }
+    .navbar .navbar-collapse {
+        margin-top: 10px !important;
+    }
+}
+
+
+/*--- 12. Responsive Max_600px ---*/
+@media only screen and (max-width: 600px) {
+    .vc_row.donation_section {
+        padding: 95px 10px 115px !important;
+    }
+    .donnation-content .button-winona.extra-large {
+        font-size: 15px;
+    }
+    /* Add new rules for this interval below */
+ 
+}
+
+/*--- 14. Responsive Min_480px Max_1200px ---*/
+@media only screen and (min-width: 681px) and (max-width: 1200px) {
+    .wpb_wrapper ul.ecs-event-list li {
+        margin-bottom: 20px !important;
+        width: 30% !important;
+    }
+    /* Add new rules for this interval below */
+
+
+}
+
+/*--- 15. Responsive Min_480px Max_680px ---*/
+@media only screen and (min-width: 480px) and (max-width: 680px) {
+    .wpb_wrapper ul.ecs-event-list li {
+        margin-bottom: 20px !important;
+        width: 44% !important;
+    }
+    /* Add new rules for this interval below */
+
+
+}
+
+
+/*--- 17. Responsive Max_990px ---*/
+@media only screen and (max-width: 990px) {
+    .list-view .blog_custom {
+        display: block !important;
+    }
+    .odd-post .blog_post_image {
+        padding-top: 48px !important;
+    }
+    .even-post .blog_post_image {
+        padding-bottom: 48px !important;
+    }
+    .blog_post_image {
+        display: block;
+        margin: 0 auto;
+    }
+    .list-view .post-details {
+        padding: 20px !important;
+    }
+    /* Add new rules for this interval below */
+
+
+}
+
+
+/*18. Responsive Min_990px and Max_1200px*/
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    
+    /* Add new rules for this interval below */
+    .pricing .pricing__price {
+        font-size: 60px !important;
+    }
+    .row .pricing-section {
+       font-size: 0px !important; 
+    }
+
+}
+
+/*19. Responsive Min_768px and Max_1023px*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .container .col-md-9 .header-infos {
+        display: -webkit-box !important;
+        margin-bottom: -80px;
+    }
+    .mt_about_section4_bg .mt_padding_top_15 .text-center .mt_about_button{
+        margin-right: 145px !important;
+    }
+}
+
+/*19. Responsive Min_1024px and Max_1100px*/
+@media only screen and (min-width: 1024px) and (max-width: 1100px){
+    .row .post-deflextails .mt_test{
+        height: 330px !important;
+    }
+    article.single-post img {
+        max-width: 120% !important;
+    }
+}

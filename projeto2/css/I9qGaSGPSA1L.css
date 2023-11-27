@@ -1,0 +1,298 @@
+/*---------------------------------------------*/
+/*--- 8. Footer ---*/
+/*---------------------------------------------*/
+footer .social-links * {
+    color: rgb(255, 255, 255);
+    display: inline-table;
+    list-style: outside none none;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+}
+footer .mc4wp-form p {
+    color: #ffffff;
+    font-size: 15px;
+}
+footer .social-links {
+    margin: 15px 0;
+    padding: 0;
+}
+footer .social-links i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+footer .widget_quintuswp_recent_entries_with_thumbnail li a{
+    color: white;
+}
+footer .widget_quintuswp_recent_entries_with_thumbnail .post-date{
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+}
+footer .social-links a:hover {
+    opacity: 0.8;
+}
+footer .shop_feature_description_v2 {
+    padding-left: 15px;
+}
+footer .contact-details p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 4px;
+    opacity: 1;
+}
+.footer-logo {
+    width: 250px;
+}
+footer {
+    background: #393939;
+}
+.footer-top .widget_nav_menu li {
+    text-align: left;
+    width: 100%;
+}
+footer .footer-top .menu .menu-item a::before {
+    content: "";
+    height: 15px;
+    left: -9px;
+    position: absolute;
+    top: 3px;
+    width: 2px;
+}
+.before_footer{
+    background: #e9eaea;
+}
+.before_footer .widget-title{
+    color: black;
+}
+.footer-top .widget-title:after{
+    display: none;
+}
+.footer-top .widget-title {
+    border: 0 none;
+    margin-bottom: 12px;
+    padding: 0;
+}
+.footer-top .widget_nav_menu ul {
+    margin: 0;
+    padding: 0;
+}
+footer .footer-top .menu .menu-item a::after{
+    content: "";
+}
+footer .footer-top .menu .menu-item a {
+    margin-left: 0px;
+    font-size: 14px;
+}
+footer .footer-top .menu .menu-item a:before {
+  background: none !important;
+}
+
+.footer-top h1.widget-title, 
+.footer-top .widget-title {
+    font-weight: 400;
+    margin: 5px 0;
+}
+.prefooter{
+    padding: 0;
+}
+.prefooter .footer .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Footer Menu */
+footer nav.menu {
+    background: transparent;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer nav ul li a{
+    color: #6d7a83;
+    font-size: 12px;
+    padding-right: 5px;
+    margin-right: 5px;
+    position: relative;
+    display: block;
+}
+footer nav ul li a:after {
+    content: '/';
+    display: block;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    color: #6d7a83;
+}
+footer nav ul li:last-child a:after {
+    display: none !important;
+}
+footer nav ul li:last-child a {
+    margin-right: 0;
+    padding-right: 0;
+}
+footer .footer {
+    background: #252525 none repeat scroll 0 0;
+    padding: 20px 0;
+}
+footer .logo, .footer-top h1.widget-title, .footer-top .widget-title {
+    margin-top: 0;
+}
+.sidebar_menu p.copyright {
+    color: black;
+}
+p.copyright {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin: 12px 0;
+}
+footer .textwidget > p:last-child {
+    margin-bottom: 0;
+}
+footer .theme-author {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+footer.entry-footer {
+    background: transparent;
+    margin-top: 20px;
+}
+footer .widget_address_social_icons .social-links li{
+  margin-bottom: 5px;
+}
+footer .widget_recent_entries_with_thumbnail li a {
+    color: #ffffff;
+    font-weight: bold;
+}
+.prefooter .widget-title {
+    color: #d5e9f8;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+footer nav.menu {
+	background: transparent;
+	margin: 0;
+}
+/* Footer */
+footer {
+	background: #2c3e50;
+}
+.prefooter{
+	padding: 0;
+}
+.prefooter .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.widget_text .shop_feature_icon_v2 {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 3px;
+    padding: 7px 0;
+    text-align: center;
+}
+.widget_text .shop_feature_icon_v2 i {
+    color: #000000;
+    font-size: 25px;
+}
+.widget_text .shop_feature_v2 {
+    margin: 0;
+    padding: 0;
+}
+footer p {
+  color: #383737;
+  font-size: 20px;
+}
+footer .textwidget p{
+	color: #fff;
+  	font-size: 15px;
+}
+footer .widget_nav_menu li::before,
+.sidebar-content .widget_nav_menu li::before,
+.widget_pages li::before,
+.widget_meta li::before,
+.widget_archive li::before,
+.widget_categories .cat-item::before {
+    content: "\f105";
+    font-family: fontawesome;
+    margin-right: 8px;
+}
+.sidebar-content .widget_nav_menu li,
+.widget_recent_entries li,
+.widget_pages li,
+.widget_meta li,
+.widget_archive li,
+.widget_categories .cat-item{
+    margin-bottom: 5px;
+}
+footer .widget_recent_entries_with_thumbnail .post-date {
+    border: 1px solid rgb(109, 122, 131);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 1px 7px;
+}
+footer .widget_recent_comments > ul,
+footer .widget_nav_menu li,
+footer .widget_nav_menu li a,
+footer .sidebar-content .widget_nav_menu li,
+footer .sidebar-content .widget_nav_menu li a,
+footer .widget_recent_entries li,
+footer .widget_recent_entries li a,
+footer .widget_pages li,
+footer .widget_pages li a,
+footer .widget_meta li,
+footer .widget_meta li a,
+footer .widget_archive li,
+footer .widget_archive li a,
+footer .widget_categories .cat-item,
+footer .widget_categories li a {
+    color: #fff;
+    opacity: 0.9;
+    font-weight: 300;
+}
+footer .tagcloud > a {
+    opacity: 0.9;
+}
+footer .logo img{
+    max-width: 100%;
+}
+footer .menu .menu-item a {
+	color: #b4bbc2;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    position: relative;
+    text-transform: none;
+}
+footer .menu .menu-item a:after {
+	content: '/';
+	display: block;
+	font-size: 12px;
+	position: absolute;
+	top: 0;
+	right: -10px;
+	color: rgba(255, 255, 255, 0.8);
+}
+footer nav ul li:last-child a {
+	margin-right: 0;
+	padding-right: 0;
+}
+footer .theme-author {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+
+
+
+

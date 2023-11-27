@@ -1,0 +1,243 @@
+/**
+* 
+* 
+* Main color:   [Orange]:       #EC6543
+* 
+* 
+**/
+
+body.quintuswp_preloader_holder {
+	background-color: #EC6543;
+}
+.is_header_semitransparent .navbar-default {
+	background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+}
+.is_header_semitransparent .sticky-wrapper.is-sticky .navbar-default {
+	background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+}
+footer.footer {
+	background-color: #252525 !important;
+}
+.breadcrumb a::after {
+	content: "/";
+}
+.logo img,
+.navbar-header .logo img {
+	max-width: 140px;
+}
+::selection {
+	color: #ffffff;
+	background: #EC6543;
+}
+::-moz-selection {
+	color: #ffffff;
+	background: #EC6543;
+}
+/*----------------------------------------------------------------*/
+    /* COLOR */
+/*----------------------------------------------------------------*/
+a,
+a:focus,
+a:visited,
+a:hover,
+.mt_404_button,
+span.amount,
+#navbar .menu-item.selected > a, #navbar .menu-item:hover > a,
+.widget_popular_recent_tabs .nav-tabs li.active a,
+.widget_product_categories .cat-item:hover,
+.widget_product_categories .cat-item a:hover,
+.widget_archive li:hover,
+.widget_archive li a:hover,
+.widget_categories .cat-item:hover,
+.widget_categories li a:hover,
+.pricing-table.recomended .button.solid-button, 
+.pricing-table .table-content:hover .button.solid-button,
+.pricing-table.Recommended .button.solid-button, 
+.pricing-table.recommended .button.solid-button, 
+#sync2.owl-item.synced .post_slider_title,
+#sync2.owl-item:hover .post_slider_title,
+#sync2.owl-item:active .post_slider_title,
+.pricing-table.recomended .button.solid-button, 
+.pricing-table .table-content:hover .button.solid-button,
+.testimonial-author,
+.testimonials-container blockquote::before,
+.testimonials-container blockquote::after,
+.post-author > a,
+h2 span,
+label.error,
+.author-name,
+.comment_body .author_name,
+.prev-next-post a:hover,
+.prev-text,
+.button.btn-filled:hover,
+.next-text,
+.social ul li a:hover i,
+.wpcf7-form span.wpcf7-not-valid-tip,
+.text-dark.statistics .stats-head *,
+.button.btn-filled,
+footer ul.menu li.menu-item a:hover,
+.widget_meta a:hover,
+.widget_pages a:hover,
+.testimonial02_position,
+.simple_sermon_content_top h4,
+footer .mc4wp-form-fields input[type="email"],
+.widget_recent_entries_with_thumbnail li:hover a,
+.widget_recent_entries li a:hover,
+.header-info-group i,
+.mt_button,
+.testimonials02-container .testimonial02-text-holder .testimonial02_position
+.sidebar-content .widget_nav_menu li a:hover {
+	color: #EC6543;									/*Color: Main Orange*/
+
+}
+	
+/*-----------------------------------------------------------------*/
+	/* BACKGROUND + BACKGROUND-COLOR */
+/*-----------------------------------------------------------------*/
+.tagcloud > a:hover,
+.modeltheme-icon-search,
+.button::after,
+.rotate45,
+.mt_404_button:hover,
+.latest-posts .post-date-day,
+.latest-posts h3, 
+.latest-tweets h3, 
+.latest-videos h3,
+.button.solid-button, 
+button.btn,
+.mt_about_button,
+.pricing-table.recomended .table-content, 
+.pricing-table .table-content:hover,
+.pricing-table.Recommended .table-content, 
+.pricing-table.recommended .table-content, 
+.pricing-table.recomended .table-content, 
+.pricing-table .table-content:hover,
+.block-triangle,
+.owl-theme .owl-controls .owl-page span,
+body .btn.btn-blue, 
+body a.btn.btn-blue, 
+body button.btn.btn-blue,
+.search-form input[type="submit"],
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover,
+#subscribe > button[type='submit'],
+.social-sharer > li:hover,
+.prev-next-post a:hover .rotate45,
+.masonry_banner.default-skin,
+.form-submit input,
+.member-header::before, 
+.member-header::after,
+.member-footer .social::before, 
+.member-footer .social::after,
+.subscribe > button[type='submit'],
+.no-results input[type='submit'], 
+h3 #reply-title::after,
+.newspaper-info,
+.categories_shortcode .owl-controls .owl-buttons i:hover,
+.widget-title:after,
+h2.heading-bottom:after,
+.content_element .accordion_wrapper .accordion_header.ui-state-active,
+#primary.main-content ul li:not(.rotate45)::before,
+.wpcf7-form .wpcf7-submit,
+ul.ecs-event-list li span,
+#contact_form2.solid-button.button,
+.navbar-default .navbar-toggle .icon-bar,
+.details-container > div.details-item .amount, .details-container > div.details-item ins,
+.modeltheme-search .search-submit,
+.pricing-table.recommended .table-content .title-pricing,
+.pricing-table .table-content:hover .title-pricing,
+.pricing-table.recommended .button.solid-button,
+#navbar ul.sub-menu li a:hover,
+.post-category-date a[rel="tag"],
+#navbar.mt-icon-list-item:hover,
+footer .mc4wp-form-fields input[type="submit"],
+.pricing-table .table-content:hover .button.solid-button,
+.section-coloredbg-semitransparent,
+.background_orange,
+.mt_button_bottom_contact,
+.testimonials02-container .testimonial02-img-holder,
+.pricing--pema .pricing__item,
+.pricing--pema .pricing__item:hover,
+.mt_button:hover,
+footer .footer-top .menu .menu-item a::before,
+.post-password-form input[type='submit'] {
+	background: #EC6543;							/*Color: Main Orange*/
+}
+
+/*-----------------------------------------------------------------*/
+	/* QUINTUS PRELOADER COLOR */
+/*-----------------------------------------------------------------*/
+.quintuswp_preloader_holder{
+	background: #EC6543;							/*Color: Orange*/
+}
+
+
+
+.modeltheme-search.modeltheme-search-open .modeltheme-icon-search, 
+.no-js .modeltheme-search .modeltheme-icon-search,
+.modeltheme-icon-search:hover,
+.latest-posts .post-date-month,
+.button.solid-button:hover,
+body .btn.btn-blue:hover, 
+body a.btn.btn-blue:hover, 
+.post-category-date a[rel="tag"]:hover,
+.single-post-tags > a:hover,
+body button.btn.btn-blue:hover,
+#contact_form2 .solid-button.button:hover,
+.subscribe > button[type='submit']:hover,
+footer .mc4wp-form-fields input[type="submit"]:hover,
+.no-results input[type='submit']:hover,
+ul.ecs-event-list li span:hover,
+.pricing-table.recommended .table-content .price_circle,
+.pricing-table .table-content:hover .price_circle,
+#modal-search-form .modal-content input.search-input,
+.wpcf7-form .wpcf7-submit:hover,
+.section-blackbg-semitransparent,
+.list-view .blog_custom,
+.pricing-table.recommended .button.solid-button:hover,
+.error-return-home.text-center > a:hover,
+.pricing-table .table-content:hover .button.solid-button:hover,
+.post-password-form input[type='submit']:hover {	
+	background: #252525;								/*Color: Main Black*/
+}
+.mt_button_bottom_contact:hover{
+	background: red;
+}
+.tagcloud > a:hover {
+	background: #252525 !important;
+}
+
+.flickr_badge_image a::after,
+.thumbnail-overlay,
+.portfolio-hover,
+.pastor-image-content .details-holder,
+.item-description .holder-top,
+blockquote::before {
+	background: .95;
+}	
+	
+/*-----------------------------------------------------------------*/
+	/* BORDER-COLOR */
+/*-----------------------------------------------------------------*/
+.comment-form input, 
+.comment-form textarea,
+.author-bio,
+blockquote,
+.widget_popular_recent_tabs .nav-tabs > li.active,
+body .left-border, 
+body .right-border,
+body .member-header,
+body .member-footer .social,
+body .button[type='submit'],
+.navbar ul li ul.sub-menu,
+.content_element .tabs_nav li.ui-tabs-active,
+#contact-us.form-control:focus,
+.sale_banner_holder:hover,
+.testimonial-img,
+.wpcf7-form input:focus, 
+.wpcf7-form textarea:focus,
+.navbar-default .navbar-toggle:hover, 
+.header_search_form,
+.navbar-default .navbar-toggle {
+	border-color: #EC6543;  /*Color: Main Orange */
+}
